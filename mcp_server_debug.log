@@ -299,3 +299,663 @@
 2026-01-19 12:13:07,390 - auth.google_auth - INFO - 34246 - asyncio_0 [google_auth.get_credentials:555] - [get_credentials] Found OAuth 2.1 credentials for MCP session e8a9aa8130d34a57b306c35df8cf4ae4
 2026-01-19 12:13:07,393 - auth.google_auth - INFO - 34246 - MainThread [google_auth.get_authenticated_google_service:916] - [get_gmail_messages_content_batch] Successfully authenticated gmail service for user: prasannah@aiatcore.com
 2026-01-19 12:13:07,393 - gmail.gmail_tools - INFO - 34246 - MainThread [gmail_tools.get_gmail_messages_content_batch:571] - [get_gmail_messages_content_batch] Invoked. Message count: 3, Email: 'prasannah@aiatcore.com'
+2026-01-19 12:45:01,180 - mcp.server.streamable_http_manager - INFO - 34246 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 13:12:19,164 - auth.scopes - INFO - 56762 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 13:12:19,178 - core.utils - INFO - 56762 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 13:12:19,178 - core.server - INFO - 56762 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 13:12:19,178 - core.server - INFO - 56762 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 13:12:19,219 - docket.worker - INFO - 56762 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#56762' with the following tasks:
+2026-01-19 13:12:19,219 - docket.worker - INFO - 56762 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 13:12:19,219 - docket.worker - INFO - 56762 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 13:12:19,219 - docket.worker - INFO - 56762 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 13:12:19,220 - mcp.server.streamable_http_manager - INFO - 56762 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 13:29:25,297 - mcp.server.streamable_http_manager - INFO - 56762 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:29:49,383 - auth.scopes - INFO - 58419 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:29:49,398 - core.utils - INFO - 58419 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:29:49,398 - core.server - INFO - 58419 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:29:49,398 - core.server - INFO - 58419 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:29:49,440 - docket.worker - INFO - 58419 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#58419' with the following tasks:
+2026-01-19 14:29:49,441 - docket.worker - INFO - 58419 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:29:49,441 - docket.worker - INFO - 58419 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:29:49,441 - docket.worker - INFO - 58419 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:29:49,441 - mcp.server.streamable_http_manager - INFO - 58419 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 14:31:14,442 - mcp.server.streamable_http_manager - INFO - 58419 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:31:19,741 - auth.scopes - INFO - 59063 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:31:19,756 - core.utils - INFO - 59063 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:31:19,756 - core.server - INFO - 59063 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:31:19,756 - core.server - INFO - 59063 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:31:19,799 - docket.worker - INFO - 59063 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#59063' with the following tasks:
+2026-01-19 14:31:19,799 - docket.worker - INFO - 59063 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:31:19,800 - docket.worker - INFO - 59063 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:31:19,800 - docket.worker - INFO - 59063 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:31:19,800 - mcp.server.streamable_http_manager - INFO - 59063 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 14:34:48,999 - mcp.server.streamable_http_manager - INFO - 59063 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:35:10,584 - auth.scopes - INFO - 60613 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:35:10,597 - core.utils - INFO - 60613 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:35:10,597 - core.server - INFO - 60613 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:35:10,597 - core.server - INFO - 60613 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:35:10,633 - docket.worker - INFO - 60613 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#60613' with the following tasks:
+2026-01-19 14:35:10,633 - docket.worker - INFO - 60613 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:35:10,634 - docket.worker - INFO - 60613 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:35:10,634 - docket.worker - INFO - 60613 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:35:10,634 - mcp.server.streamable_http_manager - INFO - 60613 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 14:41:40,287 - mcp.server.streamable_http_manager - INFO - 60613 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:43:15,207 - auth.scopes - INFO - 61538 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:43:15,221 - core.utils - INFO - 61538 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:43:15,221 - core.server - INFO - 61538 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:43:15,221 - core.server - INFO - 61538 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:43:15,261 - docket.worker - INFO - 61538 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#61538' with the following tasks:
+2026-01-19 14:43:15,261 - docket.worker - INFO - 61538 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:43:15,261 - docket.worker - INFO - 61538 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:43:15,261 - docket.worker - INFO - 61538 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:43:15,262 - mcp.server.streamable_http_manager - INFO - 61538 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 14:45:35,807 - mcp.server.streamable_http_manager - INFO - 61538 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:45:42,043 - auth.scopes - INFO - 62256 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:45:42,057 - core.utils - INFO - 62256 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:45:42,057 - core.server - INFO - 62256 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:45:42,057 - core.server - INFO - 62256 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:45:42,096 - docket.worker - INFO - 62256 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#62256' with the following tasks:
+2026-01-19 14:45:42,097 - docket.worker - INFO - 62256 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:45:42,097 - docket.worker - INFO - 62256 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:45:42,097 - docket.worker - INFO - 62256 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:45:42,097 - mcp.server.streamable_http_manager - INFO - 62256 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 14:51:01,740 - mcp.server.streamable_http_manager - INFO - 62256 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:51:08,274 - auth.scopes - INFO - 63035 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:51:08,288 - core.utils - INFO - 63035 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:51:08,288 - core.server - INFO - 63035 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:51:08,288 - core.server - INFO - 63035 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:51:08,328 - docket.worker - INFO - 63035 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#63035' with the following tasks:
+2026-01-19 14:51:08,328 - docket.worker - INFO - 63035 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:51:08,328 - docket.worker - INFO - 63035 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:51:08,328 - docket.worker - INFO - 63035 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:51:08,328 - mcp.server.streamable_http_manager - INFO - 63035 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 14:54:33,610 - mcp.server.streamable_http_manager - INFO - 63035 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:54:35,574 - auth.scopes - INFO - 63750 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:54:35,587 - core.utils - INFO - 63750 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:54:35,587 - core.server - INFO - 63750 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:54:35,587 - core.server - INFO - 63750 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:54:35,629 - docket.worker - INFO - 63750 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#63750' with the following tasks:
+2026-01-19 14:54:35,629 - docket.worker - INFO - 63750 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:54:35,629 - docket.worker - INFO - 63750 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:54:35,629 - docket.worker - INFO - 63750 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:54:35,630 - mcp.server.streamable_http_manager - INFO - 63750 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 14:58:21,069 - mcp.server.streamable_http_manager - INFO - 63750 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 14:58:29,810 - auth.scopes - INFO - 64530 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 14:58:29,823 - core.utils - INFO - 64530 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 14:58:29,823 - core.server - INFO - 64530 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 14:58:29,823 - core.server - INFO - 64530 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 14:58:29,864 - docket.worker - INFO - 64530 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#64530' with the following tasks:
+2026-01-19 14:58:29,864 - docket.worker - INFO - 64530 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 14:58:29,864 - docket.worker - INFO - 64530 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 14:58:29,864 - docket.worker - INFO - 64530 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 14:58:29,865 - mcp.server.streamable_http_manager - INFO - 64530 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 15:08:04,318 - mcp.server.streamable_http_manager - INFO - 64530 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 15:08:06,035 - auth.scopes - INFO - 66860 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 15:08:06,049 - core.utils - INFO - 66860 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 15:08:06,049 - core.server - INFO - 66860 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 15:08:06,049 - core.server - INFO - 66860 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 15:08:06,090 - docket.worker - INFO - 66860 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#66860' with the following tasks:
+2026-01-19 15:08:06,090 - docket.worker - INFO - 66860 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 15:08:06,090 - docket.worker - INFO - 66860 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 15:08:06,090 - docket.worker - INFO - 66860 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 15:08:06,091 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 15:10:44,666 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 4a0df9c5980946c9a9512ba0b68012f5
+2026-01-19 15:10:44,672 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:10:44,673 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '4a0df9c5980946c9a9512ba0b68012f5'
+2026-01-19 15:10:44,674 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:10:44,674 - auth.credential_store - INFO - 66860 - asyncio_0 [credential_store.__init__:99] - LocalJsonCredentialStore initialized with base_dir: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 15:10:44,674 - auth.credential_store - INFO - 66860 - asyncio_0 [credential_store.get_credential_store:232] - Initialized credential store: LocalDirectoryCredentialStore
+2026-01-19 15:10:44,675 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:10:44,675 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:688] - [get_credentials] Credentials expired. Attempting refresh. User: 'prasannah@aiatcore.com', Session: '4a0df9c5980946c9a9512ba0b68012f5'
+2026-01-19 15:10:45,169 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:697] - [get_credentials] Credentials refreshed successfully. User: 'prasannah@aiatcore.com', Session: '4a0df9c5980946c9a9512ba0b68012f5'
+2026-01-19 15:10:45,171 - auth.credential_store - INFO - 66860 - asyncio_0 [credential_store.store_credential:167] - Stored credentials for prasannah@aiatcore.com to /Users/prasannahraman/.google_workspace_mcp/credentials/prasannah@aiatcore.com.json
+2026-01-19 15:10:45,171 - auth.oauth21_session_store - INFO - 66860 - asyncio_0 [oauth21_session_store.store_session:347] - Created immutable session binding: 4a0df9c5980946c9a9512ba0b68012f5 -> prasannah@aiatcore.com
+2026-01-19 15:10:45,171 - auth.oauth21_session_store - INFO - 66860 - asyncio_0 [oauth21_session_store.store_session:360] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: None, mcp_session_id: 4a0df9c5980946c9a9512ba0b68012f5)
+2026-01-19 15:10:45,171 - auth.oauth21_session_store - INFO - 66860 - asyncio_0 [oauth21_session_store.store_session:360] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: None, mcp_session_id: 4a0df9c5980946c9a9512ba0b68012f5)
+2026-01-19 15:10:45,177 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:912] - [search_gmail_messages] Token email: prasannah@aiatcore.com
+2026-01-19 15:10:45,177 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:10:45,177 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'Open Gmail and summarize the latest unread emails in the user's inbox. Provide sender, subject, date, and first line/snippet. Do not open attachments unless needed.', Page size: 10
+2026-01-19 15:10:45,970 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:10:58,116 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: c3adcb1b71a048439039d2ddf31601fc
+2026-01-19 15:10:58,121 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:10:58,122 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'c3adcb1b71a048439039d2ddf31601fc'
+2026-01-19 15:10:58,122 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:10:58,122 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:10:58,124 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:10:58,124 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'Gmail: list unread emails in inbox (up to 10). Return sender, subject, date, snippet.', Page size: 10
+2026-01-19 15:10:58,662 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:11:08,067 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 15a6b0c3d89c40d790ff8e21240ab1e9
+2026-01-19 15:11:08,074 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:11:08,074 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '15a6b0c3d89c40d790ff8e21240ab1e9'
+2026-01-19 15:11:08,074 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:11:08,074 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:11:08,077 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:11:08,077 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'Gmail: list the 10 most recent emails in Inbox (read or unread). Include sender, subject, date, snippet.', Page size: 10
+2026-01-19 15:11:08,702 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:11:18,513 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 49479a095acd4e8b842c03a229e39af6
+2026-01-19 15:11:18,519 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:11:18,519 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '49479a095acd4e8b842c03a229e39af6'
+2026-01-19 15:11:18,519 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:11:18,519 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:11:18,521 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:11:18,521 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'in:inbox newer_than:30d', Page size: 10
+2026-01-19 15:11:19,054 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 10 messages
+2026-01-19 15:11:19,055 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:442] - [search_gmail_messages] More results available (next_page_token present)
+2026-01-19 15:11:31,335 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 4896ce98c928403fa54e223dd986e66b
+2026-01-19 15:11:31,342 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:11:31,342 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '4896ce98c928403fa54e223dd986e66b'
+2026-01-19 15:11:31,343 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:11:31,343 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:11:31,345 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:11:31,345 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'Get the content/metadata (From, Subject, Date, snippet) for these Gmail message IDs: 19bd5550f7c5fbf3, 19bd554bdf9084f7, 19bd5547aece8b08, 19bd5542619a9526, 19bd546ab3bd92aa, 19bd4b915d817639, 19bd4adc4f91b5d3, 19bd02e109ab4258, 19bcb07a2fffe182, 19bcb02c092960cd. Summarize briefly.', Page size: 10
+2026-01-19 15:11:31,890 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:11:44,759 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 7fe5532fe6174daea5a729ac5e4832d7
+2026-01-19 15:11:44,771 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:11:44,771 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '7fe5532fe6174daea5a729ac5e4832d7'
+2026-01-19 15:11:44,771 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:11:44,771 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:11:44,813 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:11:44,813 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'get_gmail_messages_content_batch message_ids=["19bd5550f7c5fbf3","19bd554bdf9084f7","19bd5547aece8b08","19bd5542619a9526","19bd546ab3bd92aa","19bd4b915d817639","19bd4adc4f91b5d3","19bd02e109ab4258","19bcb07a2fffe182","19bcb02c092960cd"]', Page size: 10
+2026-01-19 15:11:45,287 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:12:00,576 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 211a93848e1045ebb45f047cee5926f4
+2026-01-19 15:12:00,582 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:12:00,582 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '211a93848e1045ebb45f047cee5926f4'
+2026-01-19 15:12:00,582 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:12:00,583 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:12:00,584 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:12:00,584 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: '19bd5550f7c5fbf3', Page size: 10
+2026-01-19 15:12:01,171 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:12:58,706 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 7d01ef7ba3814bb980eedabedde8ed7c
+2026-01-19 15:12:58,713 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:12:58,714 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '7d01ef7ba3814bb980eedabedde8ed7c'
+2026-01-19 15:12:58,714 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:12:58,715 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:12:58,717 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:12:58,717 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'Gmail search: from:gea@aiatcore.com in:anywhere. List matching emails (up to 20) with date, subject, and snippet.', Page size: 10
+2026-01-19 15:12:59,309 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:13:09,121 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: f85ac213d20e435c8b29681b6a719390
+2026-01-19 15:13:09,129 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:13:09,129 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'f85ac213d20e435c8b29681b6a719390'
+2026-01-19 15:13:09,130 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:13:09,130 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:13:09,132 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:13:09,133 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'from:gea@aiatcore.com', Page size: 10
+2026-01-19 15:13:09,758 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 2 messages
+2026-01-19 15:13:18,961 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 99677a444f954e068cba1db3ca08c3ec
+2026-01-19 15:13:18,969 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:13:18,969 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '99677a444f954e068cba1db3ca08c3ec'
+2026-01-19 15:13:18,969 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:13:18,970 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:13:18,972 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:13:18,972 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'Open and extract headers (From, Subject, Date) and snippet/first lines for Gmail messages 19bb132e29807b85 and 19bb0bbbad805004. Summarize each briefly.', Page size: 10
+2026-01-19 15:13:19,508 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:13:29,245 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 0fd03608b27f4da5815faf137d108dea
+2026-01-19 15:13:29,254 - mcp.server.lowlevel.server - INFO - 66860 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:13:29,254 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '0fd03608b27f4da5815faf137d108dea'
+2026-01-19 15:13:29,254 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:13:29,254 - auth.google_auth - INFO - 66860 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:13:29,257 - auth.google_auth - INFO - 66860 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:13:29,257 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'Open this Gmail message link and return From/Subject/Date and a short snippet: https://mail.google.com/mail/u/0/#all/19bb132e29807b85', Page size: 10
+2026-01-19 15:13:29,860 - gmail.gmail_tools - INFO - 66860 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-19 15:15:23,377 - mcp.server.streamable_http_manager - INFO - 66860 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 15:15:31,355 - auth.scopes - INFO - 67931 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 15:15:31,370 - core.utils - INFO - 67931 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 15:15:31,370 - core.server - INFO - 67931 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 15:15:31,370 - core.server - INFO - 67931 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 15:15:31,411 - docket.worker - INFO - 67931 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#67931' with the following tasks:
+2026-01-19 15:15:31,411 - docket.worker - INFO - 67931 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 15:15:31,411 - docket.worker - INFO - 67931 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 15:15:31,411 - docket.worker - INFO - 67931 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 15:15:31,411 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 15:28:42,794 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: e9a2e4fcf4044387906a60904ffe002d
+2026-01-19 15:28:42,799 - mcp.server.lowlevel.server - INFO - 67931 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:28:42,800 - auth.google_auth - INFO - 67931 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'e9a2e4fcf4044387906a60904ffe002d'
+2026-01-19 15:28:42,801 - auth.google_auth - INFO - 67931 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:28:42,801 - auth.credential_store - INFO - 67931 - asyncio_0 [credential_store.__init__:99] - LocalJsonCredentialStore initialized with base_dir: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 15:28:42,801 - auth.credential_store - INFO - 67931 - asyncio_0 [credential_store.get_credential_store:232] - Initialized credential store: LocalDirectoryCredentialStore
+2026-01-19 15:28:42,801 - auth.google_auth - INFO - 67931 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:28:42,805 - auth.google_auth - INFO - 67931 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:28:42,805 - gmail.gmail_tools - INFO - 67931 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'from:me', Page size: 10
+2026-01-19 15:28:43,565 - gmail.gmail_tools - INFO - 67931 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 6 messages
+2026-01-19 15:28:53,384 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 85e4e9b517bf4355a0fec54b3e06f322
+2026-01-19 15:28:53,386 - mcp.server.lowlevel.server - INFO - 67931 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:32:20,633 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 089604241286494d889c8caf86c005b4
+2026-01-19 15:32:23,339 - mcp.server.lowlevel.server - INFO - 67931 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:32:26,708 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 37ee430b08004c8bab114983e1bae9f4
+2026-01-19 15:32:28,232 - mcp.server.lowlevel.server - INFO - 67931 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:32:59,237 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 0fb732b862f64b4e8eb75aeaf117982c
+2026-01-19 15:33:00,833 - mcp.server.lowlevel.server - INFO - 67931 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:33:22,903 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: ac392e5c02344212a1956aad4b8c50ac
+2026-01-19 15:33:24,842 - mcp.server.lowlevel.server - INFO - 67931 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:33:24,843 - auth.google_auth - INFO - 67931 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'ac392e5c02344212a1956aad4b8c50ac'
+2026-01-19 15:33:24,843 - auth.google_auth - INFO - 67931 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:33:24,845 - auth.google_auth - INFO - 67931 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:33:24,850 - auth.google_auth - INFO - 67931 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:33:24,850 - gmail.gmail_tools - INFO - 67931 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'from:me newer_than:1d', Page size: 20
+2026-01-19 15:33:25,528 - gmail.gmail_tools - INFO - 67931 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 1 messages
+2026-01-19 15:33:30,797 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: e718df9f064f4dabbdd6ed7aeea55c65
+2026-01-19 15:33:32,293 - mcp.server.lowlevel.server - INFO - 67931 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 15:33:32,294 - auth.google_auth - INFO - 67931 - MainThread [google_auth.get_authenticated_google_service:848] - [get_gmail_message_content] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'e718df9f064f4dabbdd6ed7aeea55c65'
+2026-01-19 15:33:32,294 - auth.google_auth - INFO - 67931 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 15:33:32,294 - auth.google_auth - INFO - 67931 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 15:33:32,300 - auth.google_auth - INFO - 67931 - MainThread [google_auth.get_authenticated_google_service:916] - [get_gmail_message_content] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 15:33:32,301 - gmail.gmail_tools - INFO - 67931 - MainThread [gmail_tools.get_gmail_message_content:466] - [get_gmail_message_content] Invoked. Message ID: '19bd4c54c1222091', Email: 'prasannah@aiatcore.com'
+2026-01-19 15:33:32,301 - gmail.gmail_tools - INFO - 67931 - MainThread [gmail_tools.get_gmail_message_content:470] - [get_gmail_message_content] Using service for: prasannah@aiatcore.com
+2026-01-19 15:34:53,874 - mcp.server.streamable_http_manager - INFO - 67931 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 15:39:47,544 - auth.scopes - INFO - 69781 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 15:39:47,558 - core.utils - INFO - 69781 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 15:39:47,558 - core.server - INFO - 69781 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 15:39:47,558 - core.server - INFO - 69781 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 15:39:47,598 - docket.worker - INFO - 69781 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#69781' with the following tasks:
+2026-01-19 15:39:47,598 - docket.worker - INFO - 69781 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 15:39:47,598 - docket.worker - INFO - 69781 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 15:39:47,598 - docket.worker - INFO - 69781 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 15:39:47,598 - mcp.server.streamable_http_manager - INFO - 69781 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 15:40:31,092 - mcp.server.streamable_http_manager - INFO - 69781 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 63bccf442f74425dbd50a305461ad6c7
+2026-01-19 15:40:31,102 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:40:31,905 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:41:32,491 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:41:33,265 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:42:37,764 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:42:38,613 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:43:39,468 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:44:42,035 - mcp.server.lowlevel.server - INFO - 69781 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:46:23,108 - mcp.server.streamable_http_manager - INFO - 69781 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 15:46:25,223 - auth.scopes - INFO - 70657 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 15:46:25,236 - core.utils - INFO - 70657 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 15:46:25,236 - core.server - INFO - 70657 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 15:46:25,236 - core.server - INFO - 70657 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 15:46:25,276 - docket.worker - INFO - 70657 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#70657' with the following tasks:
+2026-01-19 15:46:25,276 - docket.worker - INFO - 70657 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 15:46:25,276 - docket.worker - INFO - 70657 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 15:46:25,276 - docket.worker - INFO - 70657 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 15:46:25,277 - mcp.server.streamable_http_manager - INFO - 70657 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 15:46:31,466 - mcp.server.streamable_http_manager - INFO - 70657 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 3a2b0c0b1dfd462db42f232475cb6bcb
+2026-01-19 15:46:31,476 - mcp.server.lowlevel.server - INFO - 70657 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:49:48,372 - mcp.server.streamable_http_manager - INFO - 70657 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: f8b06bdb80b1441db98192da6b336193
+2026-01-19 15:49:48,382 - mcp.server.lowlevel.server - INFO - 70657 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:52:22,897 - mcp.server.streamable_http_manager - INFO - 70657 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 15:52:25,126 - auth.scopes - INFO - 71698 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 15:52:25,139 - core.utils - INFO - 71698 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 15:52:25,139 - core.server - INFO - 71698 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 15:52:25,139 - core.server - INFO - 71698 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 15:52:25,179 - docket.worker - INFO - 71698 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#71698' with the following tasks:
+2026-01-19 15:52:25,179 - docket.worker - INFO - 71698 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 15:52:25,180 - docket.worker - INFO - 71698 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 15:52:25,180 - docket.worker - INFO - 71698 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 15:52:25,180 - mcp.server.streamable_http_manager - INFO - 71698 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 15:52:36,943 - mcp.server.streamable_http_manager - INFO - 71698 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: cdca46bbfab84079ac03fc9180ea2abf
+2026-01-19 15:52:36,952 - mcp.server.lowlevel.server - INFO - 71698 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:53:59,437 - mcp.server.lowlevel.server - INFO - 71698 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:55:00,777 - mcp.server.lowlevel.server - INFO - 71698 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 15:56:03,134 - mcp.server.lowlevel.server - INFO - 71698 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 16:01:41,729 - mcp.server.streamable_http_manager - INFO - 71698 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:01:49,719 - auth.scopes - INFO - 72511 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:01:49,732 - core.utils - INFO - 72511 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:01:49,732 - core.server - INFO - 72511 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:01:49,732 - core.server - INFO - 72511 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:01:49,771 - docket.worker - INFO - 72511 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#72511' with the following tasks:
+2026-01-19 16:01:49,771 - docket.worker - INFO - 72511 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:01:49,771 - docket.worker - INFO - 72511 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:01:49,771 - docket.worker - INFO - 72511 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:01:49,772 - mcp.server.streamable_http_manager - INFO - 72511 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:13:29,789 - mcp.server.streamable_http_manager - INFO - 72511 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:13:35,003 - auth.scopes - INFO - 74535 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:13:35,016 - core.utils - INFO - 74535 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:13:35,016 - core.server - INFO - 74535 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:13:35,016 - core.server - INFO - 74535 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:13:35,051 - docket.worker - INFO - 74535 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#74535' with the following tasks:
+2026-01-19 16:13:35,051 - docket.worker - INFO - 74535 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:13:35,052 - docket.worker - INFO - 74535 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:13:35,052 - docket.worker - INFO - 74535 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:13:35,052 - mcp.server.streamable_http_manager - INFO - 74535 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:19:24,551 - mcp.server.streamable_http_manager - INFO - 74535 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:21:01,802 - auth.scopes - INFO - 75276 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:21:01,818 - core.utils - INFO - 75276 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:21:01,818 - core.server - INFO - 75276 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:21:01,818 - core.server - INFO - 75276 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:21:01,858 - docket.worker - INFO - 75276 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#75276' with the following tasks:
+2026-01-19 16:21:01,858 - docket.worker - INFO - 75276 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:21:01,858 - docket.worker - INFO - 75276 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:21:01,858 - docket.worker - INFO - 75276 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:21:01,859 - mcp.server.streamable_http_manager - INFO - 75276 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:22:48,995 - mcp.server.streamable_http_manager - INFO - 75276 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:22:50,770 - auth.scopes - INFO - 75917 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:22:50,783 - core.utils - INFO - 75917 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:22:50,783 - core.server - INFO - 75917 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:22:50,783 - core.server - INFO - 75917 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:22:50,825 - docket.worker - INFO - 75917 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#75917' with the following tasks:
+2026-01-19 16:22:50,825 - docket.worker - INFO - 75917 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:22:50,825 - docket.worker - INFO - 75917 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:22:50,825 - docket.worker - INFO - 75917 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:22:50,826 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:23:10,491 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 2ca4b30b114b469d82eef33568ef6265
+2026-01-19 16:23:10,498 - mcp.server.lowlevel.server - INFO - 75917 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 16:23:10,504 - mcp.server.lowlevel.server - INFO - 75917 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 16:23:10,504 - auth.google_auth - INFO - 75917 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '2ca4b30b114b469d82eef33568ef6265'
+2026-01-19 16:23:10,505 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 16:23:10,505 - auth.credential_store - INFO - 75917 - asyncio_0 [credential_store.__init__:99] - LocalJsonCredentialStore initialized with base_dir: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:23:10,505 - auth.credential_store - INFO - 75917 - asyncio_0 [credential_store.get_credential_store:232] - Initialized credential store: LocalDirectoryCredentialStore
+2026-01-19 16:23:10,505 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 16:23:10,505 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth.get_credentials:688] - [get_credentials] Credentials expired. Attempting refresh. User: 'prasannah@aiatcore.com', Session: '2ca4b30b114b469d82eef33568ef6265'
+2026-01-19 16:23:10,982 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth.get_credentials:697] - [get_credentials] Credentials refreshed successfully. User: 'prasannah@aiatcore.com', Session: '2ca4b30b114b469d82eef33568ef6265'
+2026-01-19 16:23:10,985 - auth.credential_store - INFO - 75917 - asyncio_0 [credential_store.store_credential:167] - Stored credentials for prasannah@aiatcore.com to /Users/prasannahraman/.google_workspace_mcp/credentials/prasannah@aiatcore.com.json
+2026-01-19 16:23:10,985 - auth.oauth21_session_store - INFO - 75917 - asyncio_0 [oauth21_session_store.store_session:347] - Created immutable session binding: 2ca4b30b114b469d82eef33568ef6265 -> prasannah@aiatcore.com
+2026-01-19 16:23:10,985 - auth.oauth21_session_store - INFO - 75917 - asyncio_0 [oauth21_session_store.store_session:360] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: None, mcp_session_id: 2ca4b30b114b469d82eef33568ef6265)
+2026-01-19 16:23:10,985 - auth.oauth21_session_store - INFO - 75917 - asyncio_0 [oauth21_session_store.store_session:360] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: None, mcp_session_id: 2ca4b30b114b469d82eef33568ef6265)
+2026-01-19 16:23:10,990 - auth.google_auth - INFO - 75917 - MainThread [google_auth.get_authenticated_google_service:912] - [search_gmail_messages] Token email: prasannah@aiatcore.com
+2026-01-19 16:23:10,990 - auth.google_auth - INFO - 75917 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 16:23:10,990 - gmail.gmail_tools - INFO - 75917 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'from:me', Page size: 10
+2026-01-19 16:23:11,761 - gmail.gmail_tools - INFO - 75917 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 6 messages
+2026-01-19 16:23:40,490 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: c4a5858250c34805bdde4579562f34ee
+2026-01-19 16:23:40,507 - mcp.server.lowlevel.server - INFO - 75917 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 16:23:40,518 - mcp.server.lowlevel.server - INFO - 75917 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 16:23:40,518 - auth.google_auth - INFO - 75917 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'c4a5858250c34805bdde4579562f34ee'
+2026-01-19 16:23:40,519 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 16:23:40,519 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 16:23:40,521 - auth.google_auth - INFO - 75917 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 16:23:40,521 - gmail.gmail_tools - INFO - 75917 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'from:me', Page size: 10
+2026-01-19 16:23:41,049 - gmail.gmail_tools - INFO - 75917 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 6 messages
+2026-01-19 16:23:41,988 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 9108d460475a422da92ed666099e1f75
+2026-01-19 16:23:42,004 - mcp.server.lowlevel.server - INFO - 75917 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 16:23:42,016 - mcp.server.lowlevel.server - INFO - 75917 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-19 16:23:42,016 - auth.google_auth - INFO - 75917 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '9108d460475a422da92ed666099e1f75'
+2026-01-19 16:23:42,016 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-19 16:23:42,016 - auth.google_auth - INFO - 75917 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-19 16:23:42,018 - auth.google_auth - INFO - 75917 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-19 16:23:42,018 - gmail.gmail_tools - INFO - 75917 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'from:me', Page size: 10
+2026-01-19 16:23:42,586 - gmail.gmail_tools - INFO - 75917 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 6 messages
+2026-01-19 16:24:39,697 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 012ffbbc07534f01b96ec715ec9f76bf
+2026-01-19 16:25:49,868 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: dfb774a30edd4ad180c7faeacee94c9e
+2026-01-19 16:26:04,634 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: df6fc8ee3fc849db9348f4ff413b8245
+2026-01-19 16:26:21,019 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 37015a17ee2b4a278bf4674371eae0f1
+2026-01-19 16:26:37,088 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 11ffd5e9f4da498faae12502e857705b
+2026-01-19 16:27:22,126 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 7dc93002cfb1423b8de5af786dc17448
+2026-01-19 16:27:22,127 - root - WARNING - 75917 - MainThread [session._receive_loop:383] - Failed to validate request: 28 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-19 16:29:11,596 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 2162f0a846e54daba290d0eb6a1f1b8a
+2026-01-19 16:29:11,597 - root - WARNING - 75917 - MainThread [session._receive_loop:383] - Failed to validate request: 28 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'protocolVersion': '2024...07', 'capabilities': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-19 16:31:51,419 - mcp.server.streamable_http_manager - INFO - 75917 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:32:31,006 - auth.scopes - INFO - 81355 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:32:31,021 - core.utils - INFO - 81355 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:32:31,021 - core.server - INFO - 81355 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:32:31,021 - core.server - INFO - 81355 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:32:31,061 - docket.worker - INFO - 81355 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#81355' with the following tasks:
+2026-01-19 16:32:31,061 - docket.worker - INFO - 81355 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:32:31,061 - docket.worker - INFO - 81355 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:32:31,061 - docket.worker - INFO - 81355 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:32:31,061 - mcp.server.streamable_http_manager - INFO - 81355 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:33:44,192 - mcp.server.streamable_http_manager - INFO - 81355 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:33:46,838 - auth.scopes - INFO - 81935 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:33:46,851 - core.utils - INFO - 81935 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:33:46,852 - core.server - INFO - 81935 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:33:46,852 - core.server - INFO - 81935 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:33:46,891 - docket.worker - INFO - 81935 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#81935' with the following tasks:
+2026-01-19 16:33:46,891 - docket.worker - INFO - 81935 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:33:46,891 - docket.worker - INFO - 81935 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:33:46,891 - docket.worker - INFO - 81935 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:33:46,892 - mcp.server.streamable_http_manager - INFO - 81935 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:33:50,232 - mcp.server.streamable_http_manager - INFO - 81935 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 98f4e2cdd4eb4918a4f272b9e7f561cd
+2026-01-19 16:33:50,235 - mcp.server.lowlevel.server - INFO - 81935 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-19 16:36:12,468 - mcp.server.streamable_http_manager - INFO - 81935 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:37:59,823 - auth.scopes - INFO - 82541 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:37:59,836 - core.utils - INFO - 82541 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:37:59,837 - core.server - INFO - 82541 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:37:59,837 - core.server - INFO - 82541 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:37:59,877 - docket.worker - INFO - 82541 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#82541' with the following tasks:
+2026-01-19 16:37:59,877 - docket.worker - INFO - 82541 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:37:59,877 - docket.worker - INFO - 82541 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:37:59,877 - docket.worker - INFO - 82541 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:37:59,877 - mcp.server.streamable_http_manager - INFO - 82541 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:39:22,886 - mcp.server.streamable_http_manager - INFO - 82541 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 16:39:24,966 - auth.scopes - INFO - 83212 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:39:24,981 - core.utils - INFO - 83212 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:39:24,981 - core.server - INFO - 83212 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 16:39:24,981 - core.server - INFO - 83212 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 16:39:25,021 - docket.worker - INFO - 83212 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#83212' with the following tasks:
+2026-01-19 16:39:25,021 - docket.worker - INFO - 83212 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:39:25,021 - docket.worker - INFO - 83212 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:39:25,021 - docket.worker - INFO - 83212 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:39:25,021 - mcp.server.streamable_http_manager - INFO - 83212 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 16:41:53,879 - auth.scopes - INFO - 84618 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 16:41:53,897 - core.utils - INFO - 84618 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 16:41:53,897 - core.server - INFO - 84618 - MainThread [server.set_transport_mode:74] - Transport: stdio
+2026-01-19 16:41:53,897 - auth.oauth_callback_server - INFO - 84618 - MainThread [oauth_callback_server.ensure_oauth_callback_available:257] - Creating minimal OAuth server instance for http://localhost:3000
+2026-01-19 16:41:53,898 - auth.oauth_callback_server - INFO - 84618 - MainThread [oauth_callback_server.ensure_oauth_callback_available:261] - Starting minimal OAuth server for stdio mode
+2026-01-19 16:41:54,005 - auth.oauth_callback_server - INFO - 84618 - MainThread [oauth_callback_server.start:192] - Minimal OAuth server started on localhost:3000
+2026-01-19 16:41:54,006 - auth.oauth_callback_server - INFO - 84618 - MainThread [oauth_callback_server.ensure_oauth_callback_available:264] - Minimal OAuth server successfully started on http://localhost:3000
+2026-01-19 16:41:54,035 - docket.worker - INFO - 84618 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#84618' with the following tasks:
+2026-01-19 16:41:54,035 - docket.worker - INFO - 84618 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 16:41:54,035 - docket.worker - INFO - 84618 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 16:41:54,035 - docket.worker - INFO - 84618 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 16:42:05,598 - mcp.server.streamable_http_manager - INFO - 83212 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 47ff1f1b18b04a1da80ca8df879e4165
+2026-01-19 16:45:58,509 - mcp.server.streamable_http_manager - INFO - 83212 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 17:27:28,840 - auth.scopes - INFO - 92267 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 17:27:28,862 - core.utils - INFO - 92267 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 17:27:28,863 - core.server - INFO - 92267 - MainThread [server.set_transport_mode:74] - Transport: stdio
+2026-01-19 17:27:28,863 - auth.oauth_callback_server - INFO - 92267 - MainThread [oauth_callback_server.ensure_oauth_callback_available:257] - Creating minimal OAuth server instance for http://localhost:3000
+2026-01-19 17:27:28,865 - auth.oauth_callback_server - INFO - 92267 - MainThread [oauth_callback_server.ensure_oauth_callback_available:261] - Starting minimal OAuth server for stdio mode
+2026-01-19 17:27:28,973 - auth.oauth_callback_server - INFO - 92267 - MainThread [oauth_callback_server.start:192] - Minimal OAuth server started on localhost:3000
+2026-01-19 17:27:28,974 - auth.oauth_callback_server - INFO - 92267 - MainThread [oauth_callback_server.ensure_oauth_callback_available:264] - Minimal OAuth server successfully started on http://localhost:3000
+2026-01-19 17:27:29,005 - docket.worker - INFO - 92267 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#92267' with the following tasks:
+2026-01-19 17:27:29,005 - docket.worker - INFO - 92267 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 17:27:29,005 - docket.worker - INFO - 92267 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 17:27:29,005 - docket.worker - INFO - 92267 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 17:30:22,063 - auth.oauth_callback_server - INFO - 92267 - MainThread [oauth_callback_server.stop:218] - Minimal OAuth server stopped
+2026-01-19 17:30:45,527 - auth.scopes - INFO - 93131 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 17:30:45,541 - core.utils - INFO - 93131 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 17:30:45,541 - core.server - INFO - 93131 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 17:30:45,541 - core.server - INFO - 93131 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 17:30:45,575 - docket.worker - INFO - 93131 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#93131' with the following tasks:
+2026-01-19 17:30:45,575 - docket.worker - INFO - 93131 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 17:30:45,575 - docket.worker - INFO - 93131 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 17:30:45,575 - docket.worker - INFO - 93131 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 17:30:45,576 - mcp.server.streamable_http_manager - INFO - 93131 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 17:34:32,328 - mcp.server.streamable_http_manager - INFO - 93131 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 17:34:39,550 - auth.scopes - INFO - 93830 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 17:34:39,563 - core.utils - INFO - 93830 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 17:34:39,563 - core.server - INFO - 93830 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 17:34:39,563 - core.server - INFO - 93830 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 17:34:39,608 - docket.worker - INFO - 93830 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#93830' with the following tasks:
+2026-01-19 17:34:39,608 - docket.worker - INFO - 93830 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 17:34:39,608 - docket.worker - INFO - 93830 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 17:34:39,608 - docket.worker - INFO - 93830 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 17:34:39,609 - mcp.server.streamable_http_manager - INFO - 93830 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 17:40:25,545 - mcp.server.streamable_http_manager - INFO - 93830 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 17:40:32,937 - auth.scopes - INFO - 94549 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 17:40:32,951 - core.utils - INFO - 94549 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 17:40:32,951 - core.server - INFO - 94549 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 17:40:32,951 - core.server - INFO - 94549 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 17:40:32,991 - docket.worker - INFO - 94549 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#94549' with the following tasks:
+2026-01-19 17:40:32,991 - docket.worker - INFO - 94549 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 17:40:32,991 - docket.worker - INFO - 94549 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 17:40:32,991 - docket.worker - INFO - 94549 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 17:40:32,992 - mcp.server.streamable_http_manager - INFO - 94549 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 17:42:52,624 - mcp.server.streamable_http_manager - INFO - 94549 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 17:43:08,220 - auth.scopes - INFO - 95284 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 17:43:08,234 - core.utils - INFO - 95284 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 17:43:08,234 - core.server - INFO - 95284 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 17:43:08,234 - core.server - INFO - 95284 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 17:43:08,267 - docket.worker - INFO - 95284 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#95284' with the following tasks:
+2026-01-19 17:43:08,268 - docket.worker - INFO - 95284 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 17:43:08,268 - docket.worker - INFO - 95284 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 17:43:08,268 - docket.worker - INFO - 95284 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 17:43:08,268 - mcp.server.streamable_http_manager - INFO - 95284 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 17:44:57,703 - mcp.server.streamable_http_manager - INFO - 95284 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-19 17:45:07,182 - auth.scopes - INFO - 95835 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-19 17:45:07,196 - core.utils - INFO - 95835 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-19 17:45:07,196 - core.server - INFO - 95835 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-19 17:45:07,196 - core.server - INFO - 95835 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-19 17:45:07,238 - docket.worker - INFO - 95835 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#95835' with the following tasks:
+2026-01-19 17:45:07,238 - docket.worker - INFO - 95835 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-19 17:45:07,238 - docket.worker - INFO - 95835 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-19 17:45:07,238 - docket.worker - INFO - 95835 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-19 17:45:07,238 - mcp.server.streamable_http_manager - INFO - 95835 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-19 17:50:48,330 - mcp.server.streamable_http_manager - INFO - 95835 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down

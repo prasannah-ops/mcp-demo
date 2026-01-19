@@ -34,7 +34,7 @@ OR_HEADERS = {
 }
 
 # Guaranteed OpenRouter model for testing
-MODEL = "openai/gpt-oss-120b" 
+MODEL = "" 
 
 MCP_URL = "http://127.0.0.1:8080/mcp"
 SESSION_ID = None
