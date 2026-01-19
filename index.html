@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Workspace Agent</title>
+    <!-- Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root { 
+            --primary: #007aff; 
+            --bg: #f5f5f7; 
+            --text: #1d1d1f; 
+            --secondary-text: #86868b;
+        }
+
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background: var(--bg); 
+            margin: 0; 
+            display: flex; 
+            flex-direction: column; 
+            height: 100vh; 
+            overflow: hidden; 
+            color: var(--text); 
+        }
+
+        /* Top Header / Controls */
+        #header-controls {
+            position: fixed;
+            top: 15px;
+            right: 20px;
+            z-index: 100;
+        }
+
+        .action-btn {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid #d2d2d7;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            color: #ff3b30;
+            transition: all 0.2s;
+        }
+        .action-btn:hover { background: #ff3b30; color: white; border-color: #ff3b30; }
+
+        /* Welcome Screen */
+        #welcome-screen { 
+            position: absolute; 
+            top: 45%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            text-align: center; 
+            width: 90%; 
+            max-width: 500px; 
+            z-index: 10; 
+            transition: opacity 0.3s;
+        }
+        #welcome-screen h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 10px; }
+        #welcome-screen p { color: var(--secondary-text); font-size: 1.1rem; margin-bottom: 30px; }
+        
+        .starter-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+        .starter-btn { 
+            background: white; 
+            border: 1px solid #d2d2d7; 
+            padding: 18px; 
+            border-radius: 14px; 
+            cursor: pointer; 
+            text-align: left; 
+            color: black !important; /* Force black text */
+            font-weight: 600; 
+            font-size: 1rem;
+            transition: all 0.2s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .starter-btn:hover { border-color: var(--primary); background: #fafafa; transform: translateY(-2px); }
+
+        /* Chat Window */
+        #chat { 
+            flex: 1; 
+            overflow-y: auto; 
+            padding: 20px 20px 120px 20px; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+        .msg { padding: 14px 20px; border-radius: 20px; max-width: 85%; font-size: 15px; line-height: 1.6; }
+        .user { background: var(--primary); color: white; align-self: flex-end; box-shadow: 0 4px 10px rgba(0,122,255,0.2); }
+        .ai { background: white; border: 1px solid #e5e5e5; align-self: flex-start; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+
+        /* Markdown Table Styling */
+        .ai table { border-collapse: collapse; width: 100%; margin: 15px 0; border: 1px solid #dfe2e5; border-radius: 8px; overflow: hidden; }
+        .ai th, .ai td { border: 1px solid #dfe2e5; padding: 12px; text-align: left; }
+        .ai th { background-color: #f6f8fa; font-weight: 600; }
+        .ai tr:nth-child(2n) { background-color: #fafbfc; }
+        .ai a { color: var(--primary); text-decoration: none; font-weight: 700; }
+        .ai a:hover { text-decoration: underline; }
+
+        /* Typing Indicator (Bouncing Dots) */
+        .typing { display: none; align-self: flex-start; padding: 15px 20px; background: white; border-radius: 20px; border: 1px solid #e5e5e5; margin-bottom: 10px; }
+        .dots { display: flex; gap: 5px; }
+        .dot { width: 8px; height: 8px; background: #bbb; border-radius: 50%; animation: bounce 1.3s infinite; }
+        .dot:nth-child(2) { animation-delay: 0.2s; }
+        .dot:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes bounce { 0%, 60%, 100% { transform: translateY(0); } 30% { transform: translateY(-7px); } }
+
+        /* Input Area */
+        #input-container { 
+            position: fixed; 
+            bottom: 0; 
+            width: 100%; 
+            padding: 25px; 
+            background: rgba(255,255,255,0.8); 
+            backdrop-filter: blur(15px); 
+            border-top: 1px solid #ddd; 
+            display: flex; 
+            box-sizing: border-box; 
+            z-index: 10;
+        }
+        input { flex: 1; padding: 14px 22px; border-radius: 30px; border: 1px solid #d2d2d7; outline: none; font-size: 16px; transition: border 0.2s; }
+        input:focus { border-color: var(--primary); }
+        button#send-btn { background: var(--primary); color: white; border: none; padding: 0 30px; margin-left: 12px; border-radius: 30px; cursor: pointer; font-weight: 600; }
+        
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <div id="header-controls">
+        <button class="action-btn" onclick="clearContext()">Clear Chat History</button>
+    </div>
+
+    <div id="welcome-screen">
+        <h1>May I help you?</h1>
+        <p>Your Google Workspace assistant for Email and Calendar.</p>
+        <div class="starter-grid">
+            <button class="starter-btn" onclick="sendStarter('Summarize my last 3 emails')">📧 Summarize my last 3 emails</button>
+            <button class="starter-btn" onclick="sendStarter('What is on my calendar today?')">📅 What's on my calendar today?</button>
+        </div>
+    </div>
+
+    <div id="chat"></div>
+
+    <div id="typing" class="typing">
+        <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+    </div>
+
+    <div id="input-container">
+        <input type="text" id="user-input" placeholder="Message your Agent...">
+        <button id="send-btn" onclick="handleSend()">Send</button>
+    </div>
+
+    <script>
+        const chat = document.getElementById('chat');
+        const welcome = document.getElementById('welcome-screen');
+        const input = document.getElementById('user-input');
+        const typing = document.getElementById('typing');
+
+        marked.setOptions({ gfm: true, breaks: true });
+
+        // Automated Greeting
+        window.onload = () => {
+            setTimeout(() => {
+                appendMsg("ai", "Hello! I am your AI Workspace Agent. I have access to your Gmail and Calendar. How can I assist you today?");
+            }, 600);
+        };
+
+        async function clearContext() {
+            if(confirm("Clear conversation history?")) {
+                await fetch('/api/clear', {method: 'POST'});
+                location.reload();
+            }
+        }
+
+        function sendStarter(txt) {
+            input.value = txt;
+            handleSend();
+        }
+
+        function appendMsg(role, content) {
+            const d = document.createElement('div');
+            d.className = `msg ${role}`;
+            d.innerHTML = role === 'ai' ? marked.parse(content) : content;
+            chat.appendChild(d);
+            chat.scrollTop = chat.scrollHeight;
+            return d;
+        }
+
+        async function handleSend() {
+            const val = input.value.trim();
+            if(!val) return;
+
+            welcome.classList.add('hidden');
+            appendMsg("user", val);
+            input.value = "";
+            
+            // Show Bouncing Dots
+            typing.style.display = 'block';
+            chat.appendChild(typing);
+            chat.scrollTop = chat.scrollHeight;
+
+            try {
+                const res = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ message: val })
+                });
+
+                const reader = res.body.getReader();
+                const decoder = new TextDecoder();
+                let aiDiv = null;
+                let fullText = "";
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    
+                    // Hide dots as soon as first chunk arrives
+                    typing.style.display = 'none';
+
+                    const chunk = decoder.decode(value, { stream: true });
+                    
+                    if(!aiDiv) aiDiv = appendMsg("ai", "");
+                    
+                    // Direct append (Raw text streaming - no protocol to strip)
+                    fullText += chunk;
+                    aiDiv.innerHTML = marked.parse(fullText);
+                    chat.scrollTop = chat.scrollHeight;
+                }
+            } catch (err) {
+                typing.style.display = 'none';
+                appendMsg("ai", "I'm sorry, I'm having trouble connecting to the server.");
+            }
+        }
+
+        // Enter Key Support
+        input.onkeypress = (e) => { if(e.key === 'Enter') handleSend(); };
+    </script>
+</body>
+</html>
