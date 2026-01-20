@@ -959,3 +959,898 @@ CancelTaskRequest.params.taskId
 2026-01-19 17:45:07,238 - docket.worker - INFO - 95835 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
 2026-01-19 17:45:07,238 - mcp.server.streamable_http_manager - INFO - 95835 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
 2026-01-19 17:50:48,330 - mcp.server.streamable_http_manager - INFO - 95835 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 09:36:08,004 - auth.scopes - INFO - 13454 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 09:36:08,018 - core.utils - INFO - 13454 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 09:36:08,018 - core.server - INFO - 13454 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 09:36:08,019 - core.server - INFO - 13454 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 09:36:08,092 - httpx - INFO - 13454 - MainThread [_client._send_single_request:1025] - HTTP Request: GET https://pypi.org/pypi/fastmcp/json "HTTP/1.1 200 OK"
+2026-01-20 09:36:08,137 - docket.worker - INFO - 13454 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#13454' with the following tasks:
+2026-01-20 09:36:08,137 - docket.worker - INFO - 13454 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 09:36:08,137 - docket.worker - INFO - 13454 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 09:36:08,137 - docket.worker - INFO - 13454 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 09:36:08,138 - mcp.server.streamable_http_manager - INFO - 13454 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 09:40:24,128 - mcp.server.streamable_http_manager - INFO - 13454 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 09:42:24,947 - auth.scopes - INFO - 14526 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 09:42:24,960 - core.utils - INFO - 14526 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 09:42:24,960 - core.server - INFO - 14526 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 09:42:24,960 - core.server - INFO - 14526 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 09:42:24,996 - docket.worker - INFO - 14526 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#14526' with the following tasks:
+2026-01-20 09:42:24,996 - docket.worker - INFO - 14526 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 09:42:24,996 - docket.worker - INFO - 14526 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 09:42:24,996 - docket.worker - INFO - 14526 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 09:42:24,997 - mcp.server.streamable_http_manager - INFO - 14526 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 10:33:45,282 - mcp.server.streamable_http_manager - INFO - 14526 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 10:34:13,700 - auth.scopes - INFO - 24114 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 10:34:13,715 - core.utils - INFO - 24114 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 10:34:13,715 - core.server - INFO - 24114 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 10:34:13,715 - core.server - INFO - 24114 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 10:34:13,759 - docket.worker - INFO - 24114 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#24114' with the following tasks:
+2026-01-20 10:34:13,759 - docket.worker - INFO - 24114 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 10:34:13,759 - docket.worker - INFO - 24114 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 10:34:13,759 - docket.worker - INFO - 24114 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 10:34:13,760 - mcp.server.streamable_http_manager - INFO - 24114 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 10:37:05,430 - mcp.server.streamable_http_manager - INFO - 24114 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 92a91b9375384bd1841103f986ed36a6
+2026-01-20 10:54:10,015 - mcp.server.streamable_http_manager - INFO - 24114 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 10:54:53,806 - auth.scopes - INFO - 29234 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 10:54:53,820 - core.utils - INFO - 29234 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 10:54:53,820 - core.server - INFO - 29234 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 10:54:53,820 - core.server - INFO - 29234 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 10:54:53,858 - docket.worker - INFO - 29234 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#29234' with the following tasks:
+2026-01-20 10:54:53,859 - docket.worker - INFO - 29234 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 10:54:53,859 - docket.worker - INFO - 29234 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 10:54:53,859 - docket.worker - INFO - 29234 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 10:54:53,859 - mcp.server.streamable_http_manager - INFO - 29234 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 10:59:29,130 - mcp.server.streamable_http_manager - INFO - 29234 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 11:03:19,887 - auth.scopes - INFO - 31903 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 11:03:19,901 - core.utils - INFO - 31903 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:03:19,901 - core.server - INFO - 31903 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 11:03:19,901 - core.server - INFO - 31903 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 11:03:19,943 - docket.worker - INFO - 31903 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#31903' with the following tasks:
+2026-01-20 11:03:19,944 - docket.worker - INFO - 31903 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 11:03:19,944 - docket.worker - INFO - 31903 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 11:03:19,944 - docket.worker - INFO - 31903 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 11:03:19,944 - mcp.server.streamable_http_manager - INFO - 31903 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 11:04:19,998 - mcp.server.streamable_http_manager - INFO - 31903 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 11:04:21,943 - auth.scopes - INFO - 32350 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-20 11:04:21,953 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-20 11:04:21,958 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-20 11:04:21,959 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-20 11:04:21,959 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-20 11:04:21,959 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-20 11:04:21,960 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-20 11:04:21,960 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-20 11:04:21,960 - __main__ - ERROR - 32350 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-20 11:04:21,961 - core.utils - INFO - 32350 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:04:21,961 - core.server - INFO - 32350 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 11:04:21,961 - core.server - INFO - 32350 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 11:04:22,000 - docket.worker - INFO - 32350 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#32350' with the following tasks:
+2026-01-20 11:04:22,000 - docket.worker - INFO - 32350 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 11:04:22,000 - docket.worker - INFO - 32350 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 11:04:22,000 - docket.worker - INFO - 32350 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 11:04:22,001 - mcp.server.streamable_http_manager - INFO - 32350 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 11:04:35,693 - mcp.server.streamable_http_manager - INFO - 32350 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 21a43e180c254ef3848cb27f99bbc7c6
+2026-01-20 11:05:13,366 - mcp.server.streamable_http_manager - INFO - 32350 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: f10fb11279c14cd3a2963cfae46ad764
+2026-01-20 11:05:50,155 - mcp.server.streamable_http_manager - INFO - 32350 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 7025ce431bb1442b9fbe68f2df002f74
+2026-01-20 11:08:29,811 - mcp.server.streamable_http_manager - INFO - 32350 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 70ff05bedc274d3c9bae2eab2cafb8f4
+2026-01-20 11:08:31,769 - mcp.server.lowlevel.server - INFO - 32350 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:08:36,579 - mcp.server.lowlevel.server - INFO - 32350 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:08:55,397 - mcp.server.lowlevel.server - INFO - 32350 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:09:12,617 - mcp.server.lowlevel.server - INFO - 32350 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 11:09:12,688 - auth.auth_info_middleware - ERROR - 32350 - MainThread [auth_info_middleware.on_call_tool:402] - Error in on_call_tool middleware: Error calling tool 'start_google_auth': user_google_email must be provided.
+Traceback (most recent call last):
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/site-packages/fastmcp/tools/tool_manager.py", line 160, in call_tool
+    return await tool.run(arguments)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/site-packages/fastmcp/tools/tool.py", line 383, in run
+    result = await result
+             ^^^^^^^^^^^^
+  File "/Users/prasannahraman/Desktop/mcp-week-one/core/server.py", line 532, in start_google_auth
+    raise ValueError("user_google_email must be provided.")
+ValueError: user_google_email must be provided.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/auth/auth_info_middleware.py", line 391, in on_call_tool
+    result = await call_next(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/site-packages/fastmcp/server/server.py", line 1679, in _call_tool
+    return await self._tool_manager.call_tool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/site-packages/fastmcp/tools/tool_manager.py", line 170, in call_tool
+    raise ToolError(f"Error calling tool {key!r}: {e}") from e
+fastmcp.exceptions.ToolError: Error calling tool 'start_google_auth': user_google_email must be provided.
+2026-01-20 11:09:31,147 - mcp.server.lowlevel.server - INFO - 32350 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 11:09:31,148 - auth.google_auth - INFO - 32350 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '70ff05bedc274d3c9bae2eab2cafb8f4'
+2026-01-20 11:09:31,152 - auth.google_auth - INFO - 32350 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 11:09:31,153 - auth.credential_store - INFO - 32350 - asyncio_0 [credential_store.__init__:99] - LocalJsonCredentialStore initialized with base_dir: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:09:31,153 - auth.credential_store - INFO - 32350 - asyncio_0 [credential_store.get_credential_store:232] - Initialized credential store: LocalDirectoryCredentialStore
+2026-01-20 11:09:31,154 - auth.google_auth - INFO - 32350 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 11:09:31,154 - auth.google_auth - INFO - 32350 - asyncio_0 [google_auth.get_credentials:688] - [get_credentials] Credentials expired. Attempting refresh. User: 'prasannah@aiatcore.com', Session: '70ff05bedc274d3c9bae2eab2cafb8f4'
+2026-01-20 11:09:31,631 - auth.google_auth - INFO - 32350 - asyncio_0 [google_auth.get_credentials:697] - [get_credentials] Credentials refreshed successfully. User: 'prasannah@aiatcore.com', Session: '70ff05bedc274d3c9bae2eab2cafb8f4'
+2026-01-20 11:09:31,633 - auth.credential_store - INFO - 32350 - asyncio_0 [credential_store.store_credential:167] - Stored credentials for prasannah@aiatcore.com to /Users/prasannahraman/.google_workspace_mcp/credentials/prasannah@aiatcore.com.json
+2026-01-20 11:09:31,633 - auth.oauth21_session_store - INFO - 32350 - asyncio_0 [oauth21_session_store.store_session:347] - Created immutable session binding: 70ff05bedc274d3c9bae2eab2cafb8f4 -> prasannah@aiatcore.com
+2026-01-20 11:09:31,633 - auth.oauth21_session_store - INFO - 32350 - asyncio_0 [oauth21_session_store.store_session:360] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: None, mcp_session_id: 70ff05bedc274d3c9bae2eab2cafb8f4)
+2026-01-20 11:09:31,633 - auth.oauth21_session_store - INFO - 32350 - asyncio_0 [oauth21_session_store.store_session:360] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: None, mcp_session_id: 70ff05bedc274d3c9bae2eab2cafb8f4)
+2026-01-20 11:09:31,640 - auth.google_auth - INFO - 32350 - MainThread [google_auth.get_authenticated_google_service:912] - [search_gmail_messages] Token email: prasannah@aiatcore.com
+2026-01-20 11:09:31,640 - auth.google_auth - INFO - 32350 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 11:09:31,640 - gmail.gmail_tools - INFO - 32350 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'in:inbox', Page size: 1
+2026-01-20 11:09:32,277 - gmail.gmail_tools - INFO - 32350 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 1 messages
+2026-01-20 11:09:32,277 - gmail.gmail_tools - INFO - 32350 - MainThread [gmail_tools.search_gmail_messages:442] - [search_gmail_messages] More results available (next_page_token present)
+2026-01-20 11:09:38,658 - mcp.server.lowlevel.server - INFO - 32350 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 11:09:38,659 - auth.google_auth - INFO - 32350 - MainThread [google_auth.get_authenticated_google_service:848] - [get_gmail_message_content] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '70ff05bedc274d3c9bae2eab2cafb8f4'
+2026-01-20 11:09:38,659 - auth.google_auth - INFO - 32350 - asyncio_0 [google_auth.get_credentials:555] - [get_credentials] Found OAuth 2.1 credentials for MCP session 70ff05bedc274d3c9bae2eab2cafb8f4
+2026-01-20 11:09:38,662 - auth.google_auth - INFO - 32350 - MainThread [google_auth.get_authenticated_google_service:916] - [get_gmail_message_content] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 11:09:38,662 - gmail.gmail_tools - INFO - 32350 - MainThread [gmail_tools.get_gmail_message_content:466] - [get_gmail_message_content] Invoked. Message ID: '19bd9df7dee4d5f4', Email: 'prasannah@aiatcore.com'
+2026-01-20 11:09:38,662 - gmail.gmail_tools - INFO - 32350 - MainThread [gmail_tools.get_gmail_message_content:470] - [get_gmail_message_content] Using service for: prasannah@aiatcore.com
+2026-01-20 11:12:36,370 - mcp.server.streamable_http_manager - INFO - 32350 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 11:14:22,591 - auth.scopes - INFO - 34581 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-20 11:14:22,600 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-20 11:14:22,605 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-20 11:14:22,605 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-20 11:14:22,605 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-20 11:14:22,605 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-20 11:14:22,606 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-20 11:14:22,606 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-20 11:14:22,606 - __main__ - ERROR - 34581 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-20 11:14:22,606 - core.utils - INFO - 34581 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:14:22,606 - core.server - INFO - 34581 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 11:14:22,606 - core.server - INFO - 34581 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 11:14:22,645 - docket.worker - INFO - 34581 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#34581' with the following tasks:
+2026-01-20 11:14:22,646 - docket.worker - INFO - 34581 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 11:14:22,646 - docket.worker - INFO - 34581 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 11:14:22,646 - docket.worker - INFO - 34581 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 11:14:22,646 - mcp.server.streamable_http_manager - INFO - 34581 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 11:14:25,666 - mcp.server.streamable_http_manager - INFO - 34581 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 11:14:28,813 - auth.scopes - INFO - 34832 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-20 11:14:28,821 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-20 11:14:28,825 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-20 11:14:28,825 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-20 11:14:28,825 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-20 11:14:28,826 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-20 11:14:28,826 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-20 11:14:28,826 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-20 11:14:28,826 - __main__ - ERROR - 34832 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-20 11:14:28,827 - core.utils - INFO - 34832 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:14:28,827 - core.server - INFO - 34832 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 11:14:28,827 - core.server - INFO - 34832 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 11:14:28,854 - docket.worker - INFO - 34832 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#34832' with the following tasks:
+2026-01-20 11:14:28,854 - docket.worker - INFO - 34832 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 11:14:28,854 - docket.worker - INFO - 34832 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 11:14:28,854 - docket.worker - INFO - 34832 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 11:14:28,854 - mcp.server.streamable_http_manager - INFO - 34832 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 11:14:29,865 - mcp.server.streamable_http_manager - INFO - 34832 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 11:14:33,071 - auth.scopes - INFO - 35101 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-20 11:14:33,079 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-20 11:14:33,084 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-20 11:14:33,084 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-20 11:14:33,084 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-20 11:14:33,084 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-20 11:14:33,085 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-20 11:14:33,085 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-20 11:14:33,085 - __main__ - ERROR - 35101 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-20 11:14:33,086 - core.utils - INFO - 35101 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:14:33,086 - core.server - INFO - 35101 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 11:14:33,086 - core.server - INFO - 35101 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 11:14:33,112 - docket.worker - INFO - 35101 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#35101' with the following tasks:
+2026-01-20 11:14:33,113 - docket.worker - INFO - 35101 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 11:14:33,113 - docket.worker - INFO - 35101 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 11:14:33,113 - docket.worker - INFO - 35101 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 11:14:33,113 - mcp.server.streamable_http_manager - INFO - 35101 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 11:31:35,679 - mcp.server.streamable_http_manager - INFO - 35101 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 4281aeed9446423aa5129df08110acc3
+2026-01-20 11:31:36,816 - mcp.server.lowlevel.server - INFO - 35101 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:31:44,313 - mcp.server.lowlevel.server - INFO - 35101 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:32:05,068 - mcp.server.lowlevel.server - INFO - 35101 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:32:32,488 - mcp.server.lowlevel.server - INFO - 35101 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 11:32:32,489 - auth.google_auth - INFO - 35101 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '4281aeed9446423aa5129df08110acc3'
+2026-01-20 11:32:32,490 - auth.google_auth - INFO - 35101 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 11:32:32,490 - auth.credential_store - INFO - 35101 - asyncio_0 [credential_store.__init__:99] - LocalJsonCredentialStore initialized with base_dir: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:32:32,491 - auth.credential_store - INFO - 35101 - asyncio_0 [credential_store.get_credential_store:232] - Initialized credential store: LocalDirectoryCredentialStore
+2026-01-20 11:32:32,492 - auth.google_auth - INFO - 35101 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 11:32:32,496 - auth.google_auth - INFO - 35101 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 11:32:32,496 - gmail.gmail_tools - INFO - 35101 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'in:sent', Page size: 3
+2026-01-20 11:32:33,076 - gmail.gmail_tools - INFO - 35101 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 3 messages
+2026-01-20 11:32:33,076 - gmail.gmail_tools - INFO - 35101 - MainThread [gmail_tools.search_gmail_messages:442] - [search_gmail_messages] More results available (next_page_token present)
+2026-01-20 11:32:40,253 - mcp.server.lowlevel.server - INFO - 35101 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 11:32:40,253 - auth.google_auth - INFO - 35101 - MainThread [google_auth.get_authenticated_google_service:848] - [get_gmail_messages_content_batch] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '4281aeed9446423aa5129df08110acc3'
+2026-01-20 11:32:40,254 - auth.google_auth - INFO - 35101 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 11:32:40,254 - auth.google_auth - INFO - 35101 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 11:32:40,257 - auth.google_auth - INFO - 35101 - MainThread [google_auth.get_authenticated_google_service:916] - [get_gmail_messages_content_batch] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 11:32:40,257 - gmail.gmail_tools - INFO - 35101 - MainThread [gmail_tools.get_gmail_messages_content_batch:571] - [get_gmail_messages_content_batch] Invoked. Message count: 3, Email: 'prasannah@aiatcore.com'
+2026-01-20 11:39:30,129 - auth.scopes - INFO - 41141 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-20 11:39:30,138 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-20 11:39:30,145 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-20 11:39:30,145 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-20 11:39:30,145 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-20 11:39:30,146 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-20 11:39:30,146 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-20 11:39:30,146 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-20 11:39:30,146 - __main__ - ERROR - 41141 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-20 11:39:30,147 - core.utils - INFO - 41141 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:39:30,147 - core.server - INFO - 41141 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 11:39:30,147 - core.server - INFO - 41141 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 11:39:30,191 - docket.worker - INFO - 41141 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#41141' with the following tasks:
+2026-01-20 11:39:30,191 - docket.worker - INFO - 41141 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 11:39:30,191 - docket.worker - INFO - 41141 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 11:39:30,191 - docket.worker - INFO - 41141 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 11:39:30,192 - mcp.server.streamable_http_manager - INFO - 41141 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started

@@ -1,5 +1,3 @@
-#PORT=8080 python main.py --transport streamable-http --tools gmail calendar --single-user
-#run with above command
 import argparse
 import logging
 import os
@@ -175,18 +173,17 @@ def main():
     safe_print("")
 
     # Import tool modules to register them with the MCP server via decorators
-    # commented out the ones we're not using right now
     tool_imports = {
         "gmail": lambda: import_module("gmail.gmail_tools"),
-        #"drive": lambda: import_module("gdrive.drive_tools"),
+        "drive": lambda: import_module("gdrive.drive_tools"),
         "calendar": lambda: import_module("gcalendar.calendar_tools"),
-        #"docs": lambda: import_module("gdocs.docs_tools"),
-        #"sheets": lambda: import_module("gsheets.sheets_tools"),
-        #"chat": lambda: import_module("gchat.chat_tools"),
-        #"forms": lambda: import_module("gforms.forms_tools"),
-        #"slides": lambda: import_module("gslides.slides_tools"),
-        #"tasks": lambda: import_module("gtasks.tasks_tools"),
-        #"search": lambda: import_module("gsearch.search_tools"),
+        "docs": lambda: import_module("gdocs.docs_tools"),
+        "sheets": lambda: import_module("gsheets.sheets_tools"),
+        "chat": lambda: import_module("gchat.chat_tools"),
+        "forms": lambda: import_module("gforms.forms_tools"),
+        "slides": lambda: import_module("gslides.slides_tools"),
+        "tasks": lambda: import_module("gtasks.tasks_tools"),
+        "search": lambda: import_module("gsearch.search_tools"),
     }
 
     tool_icons = {
