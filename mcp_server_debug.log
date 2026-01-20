@@ -1854,3 +1854,391 @@ ModuleNotFoundError: No module named 'gsearch'
 2026-01-20 11:39:30,191 - docket.worker - INFO - 41141 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
 2026-01-20 11:39:30,191 - docket.worker - INFO - 41141 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
 2026-01-20 11:39:30,192 - mcp.server.streamable_http_manager - INFO - 41141 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 11:49:29,950 - mcp.server.streamable_http_manager - INFO - 41141 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 11:49:48,913 - auth.scopes - INFO - 46400 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-20 11:49:48,922 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-20 11:49:48,926 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-20 11:49:48,927 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-20 11:49:48,927 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-20 11:49:48,927 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-20 11:49:48,927 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-20 11:49:48,928 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-20 11:49:48,928 - __main__ - ERROR - 46400 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-20 11:49:48,929 - core.utils - INFO - 46400 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:49:48,929 - core.server - INFO - 46400 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 11:49:48,929 - core.server - INFO - 46400 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 11:49:48,969 - docket.worker - INFO - 46400 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#46400' with the following tasks:
+2026-01-20 11:49:48,969 - docket.worker - INFO - 46400 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 11:49:48,969 - docket.worker - INFO - 46400 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 11:49:48,969 - docket.worker - INFO - 46400 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 11:49:48,969 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 11:51:33,172 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: d9c6806aa3a4421c944fec8bf3139f02
+2026-01-20 11:51:34,244 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:51:37,445 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:51:57,105 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:52:12,287 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 11:52:34,749 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 11:52:34,751 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'd9c6806aa3a4421c944fec8bf3139f02'
+2026-01-20 11:52:34,753 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 11:52:34,753 - auth.credential_store - INFO - 46400 - asyncio_0 [credential_store.__init__:99] - LocalJsonCredentialStore initialized with base_dir: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 11:52:34,753 - auth.credential_store - INFO - 46400 - asyncio_0 [credential_store.get_credential_store:232] - Initialized credential store: LocalDirectoryCredentialStore
+2026-01-20 11:52:34,754 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 11:52:34,759 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 11:52:34,759 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'in:sent', Page size: 1
+2026-01-20 11:52:35,285 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 1 messages
+2026-01-20 11:52:35,285 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:442] - [search_gmail_messages] More results available (next_page_token present)
+2026-01-20 11:52:43,292 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 11:52:43,292 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [get_gmail_message_content] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'd9c6806aa3a4421c944fec8bf3139f02'
+2026-01-20 11:52:43,293 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 11:52:43,293 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 11:52:43,296 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [get_gmail_message_content] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 11:52:43,296 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.get_gmail_message_content:466] - [get_gmail_message_content] Invoked. Message ID: '19bd4c54c1222091', Email: 'prasannah@aiatcore.com'
+2026-01-20 11:52:43,296 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.get_gmail_message_content:470] - [get_gmail_message_content] Using service for: prasannah@aiatcore.com
+2026-01-20 12:00:17,467 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: dbfd976781fa4189bbc20e1236d61dbb
+2026-01-20 12:00:19,488 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:00:22,556 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 5c1b418630ab462d95d8fcca7488904d
+2026-01-20 12:00:24,462 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:01:20,108 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 6116043220b04c08a9669a19bef56e4f
+2026-01-20 12:01:22,006 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:01:47,860 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 49f831bb5c0547fb9baa9ff3ece8aa46
+2026-01-20 12:01:49,566 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 12:01:49,567 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '49f831bb5c0547fb9baa9ff3ece8aa46'
+2026-01-20 12:01:49,567 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 12:01:49,568 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 12:01:49,577 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 12:01:49,577 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'in:sent newer_than:1d', Page size: 10
+2026-01-20 12:01:50,178 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-20 12:02:03,218 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 4a653a9a401f4609a4ced949087d1e07
+2026-01-20 12:02:05,735 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 12:02:05,736 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '4a653a9a401f4609a4ced949087d1e07'
+2026-01-20 12:02:05,736 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 12:02:05,738 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 12:02:05,741 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 12:02:05,741 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'in:sent after:2026/01/20 before:2026/01/21', Page size: 10
+2026-01-20 12:02:06,275 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 0 messages
+2026-01-20 12:02:31,657 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 47d4600da830441881cbb0f11079d513
+2026-01-20 12:02:33,325 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 12:02:33,325 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '47d4600da830441881cbb0f11079d513'
+2026-01-20 12:02:33,326 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 12:02:33,327 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 12:02:33,330 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 12:02:33,330 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'in:inbox from:@aiatcore.com newer_than:7d', Page size: 10
+2026-01-20 12:02:33,836 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 3 messages
+2026-01-20 12:02:42,398 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 61ee821bf1624ca2b11fa84d73830a98
+2026-01-20 12:02:44,485 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 12:02:44,486 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [get_gmail_messages_content_batch] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '61ee821bf1624ca2b11fa84d73830a98'
+2026-01-20 12:02:44,486 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 12:02:44,487 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 12:02:44,489 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [get_gmail_messages_content_batch] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 12:02:44,489 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.get_gmail_messages_content_batch:571] - [get_gmail_messages_content_batch] Invoked. Message count: 3, Email: 'prasannah@aiatcore.com'
+2026-01-20 12:02:54,112 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 9d31660d7e4045499157358831176153
+2026-01-20 12:02:56,096 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 12:02:56,096 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [search_gmail_messages] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: '9d31660d7e4045499157358831176153'
+2026-01-20 12:02:56,096 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 12:02:56,097 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 12:02:56,099 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [search_gmail_messages] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 12:02:56,099 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:409] - [search_gmail_messages] Email: 'prasannah@aiatcore.com', Query: 'from:@aiatcore.com -from:me newer_than:30d', Page size: 10
+2026-01-20 12:02:56,694 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.search_gmail_messages:440] - [search_gmail_messages] Found 2 messages
+2026-01-20 12:03:04,811 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: ffe73dfd1cd2472cb456b0a551ecb9e6
+2026-01-20 12:03:06,563 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 12:03:06,564 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:848] - [get_gmail_messages_content_batch] Attempting to get authenticated gmail service. Email: 'prasannah@aiatcore.com', Session: 'ffe73dfd1cd2472cb456b0a551ecb9e6'
+2026-01-20 12:03:06,564 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth.get_credentials:600] - [get_credentials] Single-user mode: bypassing session mapping, finding any credentials
+2026-01-20 12:03:06,564 - auth.google_auth - INFO - 46400 - asyncio_0 [google_auth._find_any_credentials:97] - [single-user] Found credentials for prasannah@aiatcore.com via credential store
+2026-01-20 12:03:06,568 - auth.google_auth - INFO - 46400 - MainThread [google_auth.get_authenticated_google_service:916] - [get_gmail_messages_content_batch] Successfully authenticated gmail service for user: prasannah@aiatcore.com
+2026-01-20 12:03:06,568 - gmail.gmail_tools - INFO - 46400 - MainThread [gmail_tools.get_gmail_messages_content_batch:571] - [get_gmail_messages_content_batch] Invoked. Message count: 2, Email: 'prasannah@aiatcore.com'
+2026-01-20 12:09:51,590 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 2644741d58894adc9d2da97870e735ad
+2026-01-20 12:09:51,617 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:19:17,512 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 235dc9c060154df883c880e03b54c0d5
+2026-01-20 12:25:55,819 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: cc616cb8af6040e9b5c9424cfe8574bf
+2026-01-20 12:28:03,100 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: ee724b216d824263bb0219e35e2073ea
+2026-01-20 12:28:04,351 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:28:06,623 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: fcfe5705dda24f44a9970952e3295259
+2026-01-20 12:28:07,741 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:28:54,319 - root - WARNING - 46400 - MainThread [session._receive_loop:383] - Failed to validate request: 31 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.method
+  Input should be 'initialize' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='agent/run', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'input': 'Summarize my last 3 emails'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-20 12:37:22,945 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 1406f980585b43928284529a669fc8e3
+2026-01-20 12:37:24,246 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:37:26,567 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 0315725ee9914b3696f0c7def7837fc2
+2026-01-20 12:37:27,733 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:37:41,236 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 5bfef15c10504b359868bda6c11b4eda
+2026-01-20 12:37:42,296 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:44:34,762 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 3eef6041b237489699f0d1faa90cb867
+2026-01-20 12:44:35,790 - mcp.server.lowlevel.server - INFO - 46400 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 12:54:11,419 - mcp.server.streamable_http_manager - INFO - 46400 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 13:01:10,582 - auth.scopes - INFO - 53198 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-20 13:01:34,507 - auth.scopes - INFO - 53419 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+[AUTH] [32mScope management configured for tools: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search'][0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#53862' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: ff998849f7944d34b63da15e5c70d013[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 8263519f15ba4f41a1afd69518802f18[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: ccbee44b81244ceca20f01a6b6d5c4c3[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 410b216591e2497e9f05ef2a80ee03f5[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: d8ca59a6d07243148395a380b236aa2f[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: fbf9e0a6921d411287f2d3e5af0c16be[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 0d7e0af872c64324b00cd25e0a456c38[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 5da866d03e5746199c7e3b9a40109e9a[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 05bf159734044d398ab89144f257c6f5[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 629c06b56d7c4b2b8b094d7ebbbd1b4d[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 0c80fe9563c740ffa88bd82fb811f0ba[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 1ea1d6217f664087b66f820287614919[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: bff30c8abe984fd7b57245f3aec31c83[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 188f3a20d57b49c2a68783822dfc8297[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: b613404b527b403f9af59bdc6bfed96a[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: stdio[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#55814' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
