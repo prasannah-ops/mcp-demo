@@ -3439,3 +3439,48 @@ CancelTaskRequest.params.taskId
 2026-01-20 22:31:05,127 - mcp.server.streamable_http_manager - INFO - 76214 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 0fd5579662e34b108637f2d731adcb94
 2026-01-20 22:31:06,382 - mcp.server.lowlevel.server - INFO - 76214 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
 2026-01-20 22:31:09,544 - mcp.server.lowlevel.server - INFO - 76214 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:33:16,322 - mcp.server.streamable_http_manager - INFO - 76214 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 22:33:19,006 - auth.scopes - INFO - 78464 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 22:33:19,021 - core.utils - INFO - 78464 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 22:33:19,021 - core.server - INFO - 78464 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 22:33:19,021 - core.server - INFO - 78464 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 22:33:19,062 - docket.worker - INFO - 78464 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#78464' with the following tasks:
+2026-01-20 22:33:19,062 - docket.worker - INFO - 78464 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 22:33:19,062 - docket.worker - INFO - 78464 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 22:33:19,062 - docket.worker - INFO - 78464 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 22:33:19,062 - mcp.server.streamable_http_manager - INFO - 78464 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 22:34:28,776 - mcp.server.streamable_http_manager - INFO - 78464 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 476bb0c9bdea4b10be308095df70b3af
+2026-01-20 22:34:29,917 - mcp.server.lowlevel.server - INFO - 78464 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:34:39,571 - mcp.server.lowlevel.server - INFO - 78464 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:36:40,430 - mcp.server.lowlevel.server - INFO - 78464 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:39:30,100 - mcp.server.streamable_http_manager - INFO - 78464 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 22:40:05,283 - auth.scopes - INFO - 79348 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 22:40:05,297 - core.utils - INFO - 79348 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 22:40:05,297 - core.server - INFO - 79348 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 22:40:05,297 - core.server - INFO - 79348 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 22:40:05,337 - docket.worker - INFO - 79348 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#79348' with the following tasks:
+2026-01-20 22:40:05,337 - docket.worker - INFO - 79348 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 22:40:05,337 - docket.worker - INFO - 79348 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 22:40:05,337 - docket.worker - INFO - 79348 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 22:40:05,338 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 22:40:37,310 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 4373042e088c41a7be448942d32efd0a
+2026-01-20 22:40:37,998 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 2fe733d69d7d42bc87c4c622fd764611
+2026-01-20 22:40:40,146 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: e55761f281854297ba424e1348e04f4b
+2026-01-20 22:40:40,791 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: e17edb2659d8427cb149ee178f64293b
+2026-01-20 22:40:43,842 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: dd761212a14642ccbada7c22c3bbe286
+2026-01-20 22:40:44,542 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: bcf7274871a144ec9f050f7f27dde558
+2026-01-20 22:40:49,637 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 94880a485cc3445f80c6b1d9c5a4893d
+2026-01-20 22:40:50,241 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: acb0be9bb54244ed8372a060cdb94cfe
+2026-01-20 22:43:51,046 - mcp.server.streamable_http_manager - INFO - 79348 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 22:43:53,239 - auth.scopes - INFO - 80007 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 22:43:53,254 - core.utils - INFO - 80007 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 22:43:53,254 - core.server - INFO - 80007 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 22:43:53,254 - core.server - INFO - 80007 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 22:43:53,294 - docket.worker - INFO - 80007 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#80007' with the following tasks:
+2026-01-20 22:43:53,294 - docket.worker - INFO - 80007 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 22:43:53,294 - docket.worker - INFO - 80007 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 22:43:53,294 - docket.worker - INFO - 80007 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 22:43:53,294 - mcp.server.streamable_http_manager - INFO - 80007 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 22:44:22,153 - mcp.server.streamable_http_manager - INFO - 80007 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 26f5e02045ba4cd6a362e2732cf44a8c
+2026-01-20 22:44:23,384 - mcp.server.lowlevel.server - INFO - 80007 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:49:30,616 - mcp.server.streamable_http_manager - INFO - 80007 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down

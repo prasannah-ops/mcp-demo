@@ -1,30 +1,28 @@
 import httpx
 from fastapi import FastAPI, Request, Response
-from dotenv import dotenv_values
 
 # ─────────────────────────────────────────────
-# ENV
+# CONFIG
 # ─────────────────────────────────────────────
-env = dotenv_values(".env")
 
-# Upstream MCP server (UNMODIFIED main.py)
-MCP_UPSTREAM = "http://127.0.0.1:8000/mcp"
+# Your unmodified MCP server (main.py)
+MCP_UPSTREAM = "http://127.0.0.1:8000/mcp"  # ← main.py port
 
 app = FastAPI()
 
-# Agent Builder has no MCP session concept → we proxy it
+# 🔑 SINGLE GLOBAL MCP SESSION (REQUIRED FOR AGENT BUILDER)
 SESSION_ID = None
 
 
 # ─────────────────────────────────────────────
-# MCP BRIDGE (PURE TRANSPARENT PROXY)
+# MCP BRIDGE (AGENT BUILDER SAFE)
 # ─────────────────────────────────────────────
 @app.api_route("/mcp", methods=["POST"])
 async def mcp_bridge(request: Request):
     global SESSION_ID
 
     # 🚫 DO NOT PARSE
-    # 🚫 DO NOT REWRITE
+    # 🚫 DO NOT MODIFY
     # 🚫 DO NOT INSPECT
     body = await request.body()
 
@@ -33,7 +31,7 @@ async def mcp_bridge(request: Request):
         "Accept": "application/json, text/event-stream",
     }
 
-    # ✅ Forward MCP session if present
+    # ✅ Force ALL requests into the same MCP session
     if SESSION_ID:
         headers["mcp-session-id"] = SESSION_ID
 
@@ -45,7 +43,7 @@ async def mcp_bridge(request: Request):
         )
 
     # ✅ Capture MCP session ONCE (initialize)
-    if "mcp-session-id" in upstream.headers:
+    if "mcp-session-id" in upstream.headers and SESSION_ID is None:
         SESSION_ID = upstream.headers["mcp-session-id"]
 
     return Response(
@@ -61,7 +59,7 @@ async def mcp_bridge(request: Request):
 
 
 # ─────────────────────────────────────────────
-# CHAT ENDPOINT (UNCHANGED)
+# CHAT ENDPOINT (FRONTEND → AGENT BUILDER)
 # ─────────────────────────────────────────────
 @app.post("/api/chat")
 async def chat_proxy(request: Request):
