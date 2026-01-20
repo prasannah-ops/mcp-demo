@@ -2242,3 +2242,1200 @@ CancelTaskRequest.params.taskId
 [INFO] [32m* fail(message: str, ...)[0m
 [INFO] [32m* sleep(seconds: float, ...)[0m
 [INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#57978' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: 6db1c877b6f44cca8a30476674975840[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: e8eb8d7dbfad4706b2eb753fec153459[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 4cdb102a3de1478bae1545e3600f5443[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: c452e2bb1eeb4ca2b69451bd6bcc7e42[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 96d8abd2d81842159dbed125a04bd35b[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 8b20b1b325124962b261636a2099d33c[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: ffe18c872b9742bb823beaa79eef4925[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 1c8d59d7bab04d72ac8224a3c94e7d06[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#59938' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: 0249dba0f87d4faba1a9bcc3035b75d4[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 4d8e9dc987844694a7768651dc72187c[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 487e4defdf8448d380f9ff2f366ebf3f[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: b8198e15fee246e49e97756079410d94[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 3f39cd8eb28344928ba03c3f7d197574[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: ae30e0212e814281b871c6abaa3ee672[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: f76094f303b64a008a5a4a6772cbf7c4[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#60975' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: 05438487e40b4c5d912d50df499620d3[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: d057e28b03f64d9da7f35398781316a9[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 16c3a7393d334380b2be59ce56605701[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 0c5526785b5c405cb4f00f79e8c19786[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 4dcadf108fc841818192a83a48d77557[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 54dc8aba7353489bbbd979f77c765bd5[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 58bc9d220b4a4e94aa0645ef3f1046bc[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 297f1cb2d5664bdbafd3213837643a19[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 5f63e46552a6424186ce8bc766c05863[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 3d20e03c097640dfb3716294acf7df7b[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: a02824e5c0cd47849a0c269b133ddfd7[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: baefce5520b24887b1ce246ca52e5214[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: db311708367f4321ba47ceb265f094c3[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 9d4a2b7ee346449eb206f09ff8aeca96[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#62379' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: 0965d5f8f8cd4a7c8dc6b485a7bc9008[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: dc0473c73b804f1597a664bdc4c105e7[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: e9b62e534a1942aca2ba1199e96d4480[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: bfdfac170dda40eaa92432c8ec9f654f[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 9ad864ee52c2462ab571bda0ba9cce57[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 56f6fb6001f34719a3efa6b044b0f5f2[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 505c0bb119fd4a6996c119ba20a1b3e8[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 9079c13fe88446239762a0c926aea105[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: ff3c8c350928487ab8efb9c1ab96c4a4[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#63376' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: faecd6e50ef646ef896f596a858225c9[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 7b7ccd6d3d8e42828df10d8750fb7b46[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: ff1e844da44b482385c668e326f4c520[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 1a094516d1054e53b3fe9349fe7e0d54[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 4303bcaadfe149cd80f7e580118f52fb[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#63988' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: f57c2b146ca3416c95f314de2f25c7f3[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 114754f59bed411f83fe9cae4eb4a88f[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 062ebde93e1e4310b6aaf2c600b91460[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 17106ccfa8804063af9312c2e134f09d[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#64447' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: 24558102be4c4ca3af8ac55a02e9bb7a[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 3fed4a1b6b1e4b50877db1f4731cea39[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 16b2fd7403924257b9775ac2bb5d6ff6[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: d3326dbaf70e4dff90f08609d9181ca9[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#65476' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mCreated new transport with session ID: 31b5c11b6e3045b6909dbf28b6b3574b[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: 30e57df58ff24492bb3f8eb08fae13cc[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mCreated new transport with session ID: e7342549b9ed45faae4c1f1b040fe061[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[INFO] [32mCreated new transport with session ID: 47749c7dafeb40b9b262b880eddec7bb[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[WARNING] [33mFailed to validate request: 30 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetPromptRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CallToolRequest.params.name
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+GetTaskPayloadRequest.method
+  Input should be 'tasks/result' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+GetTaskPayloadRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+ListTasksRequest.method
+  Input should be 'tasks/list' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='initialize', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+CancelTaskRequest.params.taskId
+  Field required [type=missing, input_value={'service': 'gmail', 'use...prasannah@aiatcore.com'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing[0m
+[INFO] [32mCreated new transport with session ID: fc68ad1fab4f484ebe5ff0487f2f0755[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mProcessing request of type ListToolsRequest[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+[AUTH] [32mScope management configured for tools: ['gmail', 'calendar'][0m
+[UTILS] [32mCredentials directory verified: /Users/prasannahraman/.google_workspace_mcp/credentials[0m
+[INFO] [32mTransport: streamable-http[0m
+[INFO] [32mOAuth 2.0 mode - Server will use legacy authentication.[0m
+[INFO] [32mStarting worker 'Prasannahs-MacBook-Air.local#70940' with the following tasks:[0m
+[INFO] [32m* trace(message: str, ...)[0m
+[INFO] [32m* fail(message: str, ...)[0m
+[INFO] [32m* sleep(seconds: float, ...)[0m
+[INFO] [32mStreamableHTTP session manager started[0m
+[INFO] [32mStreamableHTTP session manager shutting down[0m
+2026-01-20 17:28:45,793 - auth.scopes - INFO - 71175 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 17:28:45,807 - core.utils - INFO - 71175 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 17:28:45,808 - core.server - INFO - 71175 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 17:28:45,808 - core.server - INFO - 71175 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 17:28:45,858 - docket.worker - INFO - 71175 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#71175' with the following tasks:
+2026-01-20 17:28:45,858 - docket.worker - INFO - 71175 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 17:28:45,858 - docket.worker - INFO - 71175 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 17:28:45,858 - docket.worker - INFO - 71175 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 17:28:45,858 - mcp.server.streamable_http_manager - INFO - 71175 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 17:29:04,517 - mcp.server.streamable_http_manager - INFO - 71175 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 04496cfb32734928aa414671885f8517
+2026-01-20 17:29:06,146 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 17:29:18,413 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 17:31:23,678 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 17:46:17,998 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 17:47:43,434 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 17:47:43,437 - auth.google_auth - INFO - 71175 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-20 17:47:43,437 - auth.google_auth - INFO - 71175 - MainThread [google_auth.start_auth_flow:337] - [start_auth_flow] Initiating auth for gmail for 'prasannah@aiatcore.com' with scopes for enabled tools.
+2026-01-20 17:47:43,437 - auth.google_auth - INFO - 71175 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-20 17:47:43,438 - auth.google_auth - INFO - 71175 - MainThread [google_auth.start_auth_flow:373] - Auth flow started for gmail for 'prasannah@aiatcore.com'. State: f59be53f... Advise user to visit: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=183140428050-rnr43fl464dmd83ans6draufjmn9c411.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.send+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.settings.basic+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.events+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.compose+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.labels+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=f59be53f25641b2d20f850f017e5d98b&access_type=offline&prompt=consent
+2026-01-20 17:47:58,802 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 17:47:58,802 - auth.google_auth - INFO - 71175 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-20 17:47:58,802 - auth.google_auth - INFO - 71175 - MainThread [google_auth.start_auth_flow:337] - [start_auth_flow] Initiating auth for gmail for 'prasannah@aiatcore.com' with scopes for enabled tools.
+2026-01-20 17:47:58,802 - auth.google_auth - INFO - 71175 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-20 17:47:58,802 - auth.google_auth - INFO - 71175 - MainThread [google_auth.start_auth_flow:373] - Auth flow started for gmail for 'prasannah@aiatcore.com'. State: 9e997b53... Advise user to visit: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=183140428050-rnr43fl464dmd83ans6draufjmn9c411.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.send+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.settings.basic+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.events+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.compose+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.labels+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=9e997b537e6ef7017857eaf0fe897cb9&access_type=offline&prompt=consent
+2026-01-20 17:49:17,509 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 17:49:47,059 - mcp.server.lowlevel.server - INFO - 71175 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 17:51:30,036 - mcp.server.streamable_http_manager - INFO - 71175 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 22:03:21,607 - auth.scopes - INFO - 72307 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 22:03:21,621 - core.utils - INFO - 72307 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 22:03:21,621 - core.server - INFO - 72307 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 22:03:21,621 - core.server - INFO - 72307 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 22:03:24,798 - httpx - INFO - 72307 - MainThread [_client._send_single_request:1025] - HTTP Request: GET https://pypi.org/pypi/fastmcp/json "HTTP/1.1 200 OK"
+2026-01-20 22:03:24,847 - docket.worker - INFO - 72307 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#72307' with the following tasks:
+2026-01-20 22:03:24,847 - docket.worker - INFO - 72307 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 22:03:24,847 - docket.worker - INFO - 72307 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 22:03:24,847 - docket.worker - INFO - 72307 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 22:03:24,848 - mcp.server.streamable_http_manager - INFO - 72307 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 22:03:50,741 - mcp.server.streamable_http_manager - INFO - 72307 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: e8112c62463d43f097a213efd2c125e8
+2026-01-20 22:12:48,193 - mcp.server.streamable_http_manager - INFO - 72307 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 4916256f34b941aeb133ca9e45fa0d1e
+2026-01-20 22:12:49,733 - mcp.server.lowlevel.server - INFO - 72307 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:13:05,482 - mcp.server.lowlevel.server - INFO - 72307 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:13:24,932 - mcp.server.lowlevel.server - INFO - 72307 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-20 22:13:24,934 - auth.google_auth - INFO - 72307 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-20 22:13:24,935 - auth.google_auth - INFO - 72307 - MainThread [google_auth.start_auth_flow:337] - [start_auth_flow] Initiating auth for gmail for 'prasannah@aiatcore.com' with scopes for enabled tools.
+2026-01-20 22:13:24,935 - auth.google_auth - INFO - 72307 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-20 22:13:24,936 - auth.google_auth - INFO - 72307 - MainThread [google_auth.start_auth_flow:373] - Auth flow started for gmail for 'prasannah@aiatcore.com'. State: 5642b62d... Advise user to visit: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=183140428050-rnr43fl464dmd83ans6draufjmn9c411.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth2callback&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.send+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.compose+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.settings.basic+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.labels+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.events+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify&state=5642b62d697bf3ed15ffbe23d3e28bc0&access_type=offline&prompt=consent
+2026-01-20 22:13:53,398 - mcp.server.lowlevel.server - INFO - 72307 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:19:22,496 - mcp.server.streamable_http_manager - INFO - 72307 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 3f11048e9c5643f1b82b851e6a276b98
+2026-01-20 22:19:23,881 - mcp.server.lowlevel.server - INFO - 72307 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:19:27,728 - mcp.server.lowlevel.server - INFO - 72307 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:19:35,795 - mcp.server.lowlevel.server - INFO - 72307 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:26:35,240 - mcp.server.streamable_http_manager - INFO - 72307 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-20 22:29:29,621 - auth.scopes - INFO - 76214 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-20 22:29:29,639 - core.utils - INFO - 76214 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-20 22:29:29,639 - core.server - INFO - 76214 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-20 22:29:29,639 - core.server - INFO - 76214 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-20 22:29:29,688 - docket.worker - INFO - 76214 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#76214' with the following tasks:
+2026-01-20 22:29:29,688 - docket.worker - INFO - 76214 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-20 22:29:29,688 - docket.worker - INFO - 76214 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-20 22:29:29,688 - docket.worker - INFO - 76214 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-20 22:29:29,688 - mcp.server.streamable_http_manager - INFO - 76214 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-20 22:31:05,127 - mcp.server.streamable_http_manager - INFO - 76214 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 0fd5579662e34b108637f2d731adcb94
+2026-01-20 22:31:06,382 - mcp.server.lowlevel.server - INFO - 76214 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-20 22:31:09,544 - mcp.server.lowlevel.server - INFO - 76214 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest

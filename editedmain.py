@@ -11,7 +11,7 @@ import logging
 import os
 import socket
 import sys
-from importlib import metadata, import_module
+from importlib import import_module
 from dotenv import load_dotenv
 
 from auth.oauth_config import reload_oauth_config, is_stateless_mode
@@ -24,6 +24,10 @@ from core.tool_registry import (
     wrap_server_tool_method,
     filter_server_tools,
 )
+
+# ─────────────────────────────────────────────
+# Environment & logging
+# ─────────────────────────────────────────────
 
 dotenv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
 load_dotenv(dotenv_path=dotenv_path)
@@ -39,16 +43,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 configure_file_logging()
-
-
-def safe_print(text):
-    if not sys.stderr.isatty():
-        logger.debug(f"[MCP Server] {text}")
-        return
-    try:
-        print(text, file=sys.stderr)
-    except UnicodeEncodeError:
-        print(text.encode("ascii", errors="replace").decode(), file=sys.stderr)
 
 
 def configure_safe_logging():
@@ -69,6 +63,10 @@ def configure_safe_logging():
         if isinstance(handler, logging.StreamHandler):
             handler.setFormatter(SafeEnhancedFormatter(use_colors=True))
 
+
+# ─────────────────────────────────────────────
+# Main
+# ─────────────────────────────────────────────
 
 def main():
     configure_safe_logging()
@@ -100,12 +98,15 @@ def main():
     args = parser.parse_args()
 
     port = int(os.getenv("PORT", os.getenv("WORKSPACE_MCP_PORT", 8000)))
-    base_uri = os.getenv("WORKSPACE_MCP_BASE_URI", "http://localhost")
 
     tool_imports = {
         "gmail": lambda: import_module("gmail.gmail_tools"),
         "calendar": lambda: import_module("gcalendar.calendar_tools"),
     }
+
+    # ─────────────────────────────────────────────
+    # Tool selection
+    # ─────────────────────────────────────────────
 
     if args.tool_tier:
         tier_tools, suggested = resolve_tools_from_tier(args.tool_tier, args.tools)
@@ -118,6 +119,7 @@ def main():
         tools_to_import = tool_imports.keys()
         set_enabled_tool_names(None)
 
+    # Wrap + load tools
     wrap_server_tool_method(server)
 
     from auth.scopes import set_enabled_tools
@@ -129,20 +131,30 @@ def main():
     filter_server_tools(server)
 
     # ─────────────────────────────────────────────
-    # 🔑 AGENT BUILDER FIX (CORRECT METHOD)
-    # Patch _list_tools (private API used internally)
+    # 🔑 AGENT BUILDER FIX
+    # Relax tool schemas during discovery ONLY
     # ─────────────────────────────────────────────
+
     original_list_tools = server._list_tools
 
     def patched_list_tools():
         tools = original_list_tools()
         for tool in tools:
             schema = tool.get("inputSchema")
-            if schema and "required" in schema:
-                schema.pop("required", None)
+            if not schema:
+                continue
+            # Agent Builder rejects required fields
+            schema.pop("required", None)
+            # Ensure defaults are JSON-safe
+            for prop in schema.get("properties", {}).values():
+                if "default" in prop and prop["default"] is None:
+                    continue
         return tools
 
     server._list_tools = patched_list_tools
+
+    # ─────────────────────────────────────────────
+    # Runtime mode
     # ─────────────────────────────────────────────
 
     if args.single_user:

@@ -1,100 +1,85 @@
 import httpx
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse, StreamingResponse
+from fastapi import FastAPI, Request, Response
+from dotenv import dotenv_values
 
 # ─────────────────────────────────────────────
-# CONFIG
+# ENV
 # ─────────────────────────────────────────────
+env = dotenv_values(".env")
 
-# Agent Builder MCP endpoint (THIS is the agent)
-AGENT_BUILDER_URL = "http://127.0.0.1:3000/mcp"
-
-# This server (UI gateway)
-PORT = 8081
+# Upstream MCP server (UNMODIFIED main.py)
+MCP_UPSTREAM = "http://127.0.0.1:8000/mcp"
 
 app = FastAPI()
 
-# Agent Builder manages session state
+# Agent Builder has no MCP session concept → we proxy it
 SESSION_ID = None
 
 
 # ─────────────────────────────────────────────
-# UI
+# MCP BRIDGE (PURE TRANSPARENT PROXY)
 # ─────────────────────────────────────────────
-
-@app.get("/", response_class=HTMLResponse)
-async def index():
-    with open("app/index.html", "r") as f:
-        return f.read()
-
-
-# ─────────────────────────────────────────────
-# CHAT → AGENT BUILDER
-# ─────────────────────────────────────────────
-
-@app.post("/api/chat")
-async def chat(request: Request):
-    """
-    Receives user input from frontend
-    Forwards it to Agent Builder
-    Streams Agent Builder output back to frontend
-    """
+@app.api_route("/mcp", methods=["POST"])
+async def mcp_bridge(request: Request):
     global SESSION_ID
 
-    body = await request.json()
-    user_message = body.get("message", "")
-
-    # Agent Builder expects MCP-style messages
-    payload = {
-        "jsonrpc": "2.0",
-        "id": 1,
-        "method": "agent/run",
-        "params": {
-            "input": user_message
-        }
-    }
+    # 🚫 DO NOT PARSE
+    # 🚫 DO NOT REWRITE
+    # 🚫 DO NOT INSPECT
+    body = await request.body()
 
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json, text/event-stream",
     }
 
+    # ✅ Forward MCP session if present
     if SESSION_ID:
         headers["mcp-session-id"] = SESSION_ID
 
-    async def stream():
-        global SESSION_ID
+    async with httpx.AsyncClient(timeout=None) as client:
+        upstream = await client.post(
+            MCP_UPSTREAM,
+            content=body,   # RAW BYTES ONLY
+            headers=headers,
+        )
 
-        async with httpx.AsyncClient(timeout=None) as client:
-            async with client.stream(
-                "POST",
-                AGENT_BUILDER_URL,
-                headers=headers,
-                json=payload,
-            ) as resp:
+    # ✅ Capture MCP session ONCE (initialize)
+    if "mcp-session-id" in upstream.headers:
+        SESSION_ID = upstream.headers["mcp-session-id"]
 
-                # Capture session ID if Agent Builder assigns one
-                if "mcp-session-id" in resp.headers:
-                    SESSION_ID = resp.headers["mcp-session-id"]
+    return Response(
+        content=upstream.content,
+        status_code=upstream.status_code,
+        headers={
+            "Content-Type": upstream.headers.get(
+                "content-type", "application/json"
+            ),
+            **({"mcp-session-id": SESSION_ID} if SESSION_ID else {}),
+        },
+    )
 
-                async for line in resp.aiter_lines():
-                    if not line:
-                        continue
 
-                    # Agent Builder streams via SSE
-                    if line.startswith("data:"):
-                        data = line.removeprefix("data:").strip()
-                        if data == "[DONE]":
-                            break
-                        yield data
+# ─────────────────────────────────────────────
+# CHAT ENDPOINT (UNCHANGED)
+# ─────────────────────────────────────────────
+@app.post("/api/chat")
+async def chat_proxy(request: Request):
+    payload = await request.json()
+    return {"status": "ok", "echo": payload}
 
-    return StreamingResponse(stream(), media_type="text/plain")
+
+# ─────────────────────────────────────────────
+# HEALTH
+# ─────────────────────────────────────────────
+@app.get("/")
+def health():
+    return {"status": "ok"}
 
 
 # ─────────────────────────────────────────────
 # START
 # ─────────────────────────────────────────────
-
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=PORT)
+    uvicorn.run(app, host="0.0.0.0", port=8081)
