@@ -3484,3 +3484,408 @@ CancelTaskRequest.params.taskId
 2026-01-20 22:44:22,153 - mcp.server.streamable_http_manager - INFO - 80007 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 26f5e02045ba4cd6a362e2732cf44a8c
 2026-01-20 22:44:23,384 - mcp.server.lowlevel.server - INFO - 80007 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
 2026-01-20 22:49:30,616 - mcp.server.streamable_http_manager - INFO - 80007 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-21 08:49:54,023 - auth.scopes - INFO - 81631 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-21 08:49:54,036 - core.utils - INFO - 81631 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-21 08:49:54,036 - core.server - INFO - 81631 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-21 08:49:54,036 - core.server - INFO - 81631 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-21 08:49:54,079 - docket.worker - INFO - 81631 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#81631' with the following tasks:
+2026-01-21 08:49:54,079 - docket.worker - INFO - 81631 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-21 08:49:54,079 - docket.worker - INFO - 81631 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-21 08:49:54,079 - docket.worker - INFO - 81631 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-21 08:49:54,079 - mcp.server.streamable_http_manager - INFO - 81631 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-21 08:50:29,332 - mcp.server.streamable_http_manager - INFO - 81631 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 4409832602db4988924d5de6a31bb988
+2026-01-21 08:50:31,072 - mcp.server.lowlevel.server - INFO - 81631 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 08:51:06,892 - mcp.server.lowlevel.server - INFO - 81631 - MainThread [server._handle_request:713] - Processing request of type CallToolRequest
+2026-01-21 08:51:06,893 - auth.google_auth - INFO - 81631 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-21 08:51:06,893 - auth.google_auth - INFO - 81631 - MainThread [google_auth.start_auth_flow:337] - [start_auth_flow] Initiating auth for gmail for 'prasannah@aiatcore.com' with scopes for enabled tools.
+2026-01-21 08:51:06,893 - auth.google_auth - INFO - 81631 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-21 08:51:06,894 - auth.google_auth - INFO - 81631 - MainThread [google_auth.start_auth_flow:373] - Auth flow started for gmail for 'prasannah@aiatcore.com'. State: 10ecb681... Advise user to visit: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=183140428050-rnr43fl464dmd83ans6draufjmn9c411.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Foauth2callback&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.settings.basic+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.events+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.send+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.labels+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.compose+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=10ecb6810fbbd3059aa26086ab704c49&access_type=offline&prompt=consent
+2026-01-21 08:51:22,068 - mcp.server.lowlevel.server - INFO - 81631 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 08:52:08,590 - auth.google_auth - INFO - 81631 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-21 08:52:08,591 - core.server - INFO - 81631 - MainThread [server.legacy_oauth2_callback:470] - OAuth callback: Received code (state: 10ecb6810fbbd3059aa26086ab704c49).
+2026-01-21 08:52:08,591 - auth.google_auth - INFO - 81631 - MainThread [google_auth.load_client_secrets_from_env:199] - Loaded OAuth client credentials from environment variables
+2026-01-21 08:52:09,199 - auth.google_auth - INFO - 81631 - MainThread [google_auth.handle_auth_callback:484] - Successfully exchanged authorization code for tokens.
+2026-01-21 08:52:09,586 - auth.google_auth - INFO - 81631 - MainThread [google_auth.get_user_info:758] - Successfully fetched user info: prasannah@aiatcore.com
+2026-01-21 08:52:09,587 - auth.google_auth - INFO - 81631 - MainThread [google_auth.handle_auth_callback:493] - Identified user_google_email: prasannah@aiatcore.com
+2026-01-21 08:52:09,587 - auth.credential_store - INFO - 81631 - MainThread [credential_store.__init__:99] - LocalJsonCredentialStore initialized with base_dir: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-21 08:52:09,587 - auth.credential_store - INFO - 81631 - MainThread [credential_store.get_credential_store:232] - Initialized credential store: LocalDirectoryCredentialStore
+2026-01-21 08:52:09,590 - auth.credential_store - INFO - 81631 - MainThread [credential_store.store_credential:167] - Stored credentials for prasannah@aiatcore.com to /Users/prasannahraman/.google_workspace_mcp/credentials/prasannah@aiatcore.com.json
+2026-01-21 08:52:09,590 - auth.oauth21_session_store - INFO - 81631 - MainThread [oauth21_session_store.store_session:364] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: None)
+2026-01-21 08:52:09,593 - core.server - INFO - 81631 - MainThread [server.legacy_oauth2_callback:483] - OAuth callback: Successfully authenticated user: prasannah@aiatcore.com.
+2026-01-21 08:52:09,593 - auth.oauth21_session_store - INFO - 81631 - MainThread [oauth21_session_store.store_session:364] - Stored OAuth 2.1 session for prasannah@aiatcore.com (session_id: google-10ecb6810fbbd3059aa26086ab704c49)
+2026-01-21 08:52:09,593 - core.server - INFO - 81631 - MainThread [server.legacy_oauth2_callback:502] - Stored Google credentials in OAuth 2.1 session store for prasannah@aiatcore.com
+2026-01-21 08:52:23,059 - mcp.server.lowlevel.server - INFO - 81631 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 08:52:42,742 - mcp.server.lowlevel.server - INFO - 81631 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:05:46,792 - mcp.server.streamable_http_manager - INFO - 81631 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-21 09:33:18,142 - auth.scopes - INFO - 85365 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-21 09:33:18,157 - core.utils - INFO - 85365 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-21 09:33:18,157 - core.server - INFO - 85365 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-21 09:33:18,157 - core.server - INFO - 85365 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-21 09:33:18,198 - docket.worker - INFO - 85365 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#85365' with the following tasks:
+2026-01-21 09:33:18,198 - docket.worker - INFO - 85365 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-21 09:33:18,198 - docket.worker - INFO - 85365 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-21 09:33:18,198 - docket.worker - INFO - 85365 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-21 09:33:18,199 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-21 09:41:22,031 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: e29446547f564dacb32154c72d2bdc67
+2026-01-21 09:41:23,050 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 5e78c0a2a3ff4b2ba45845511419a6ba
+2026-01-21 09:41:24,433 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:41:27,402 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 715e2e61c2cd49fda6e54e78dc308aa8
+2026-01-21 09:41:28,118 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 7d7eb01adb3c442cb62370199944e21e
+2026-01-21 09:41:29,759 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:41:37,410 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: c21790170bce4180bb90f3e6939179f5
+2026-01-21 09:41:38,630 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:44:49,317 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 7b32d6b63c084e25877cb25ba967ef65
+2026-01-21 09:44:50,135 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 7076ad2b84b74084898c523d7d49498f
+2026-01-21 09:44:51,391 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:45:40,879 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: fab264c96e214e1ab0f6d484f5c6c402
+2026-01-21 09:45:41,522 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 8d2962333c384b7d91e3ded1e1f443c4
+2026-01-21 09:45:43,152 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:45:45,477 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: be21379c64ad473a91cabc107e4465a8
+2026-01-21 09:45:46,179 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 2b73f4a87faf45629f6b0e50b52b3400
+2026-01-21 09:45:47,331 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:46:34,868 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 134e184a968744a3aec9d9154f2a30a2
+2026-01-21 09:46:35,412 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 6541cd8545ea40e7abf4fc59b53117f3
+2026-01-21 09:46:36,762 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:46:43,317 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: b2474457df644462803bc6e8a51e7fd1
+2026-01-21 09:46:44,852 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 09:46:54,690 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 2122198a32684e098029914d4909aae0
+2026-01-21 09:46:55,582 - mcp.server.lowlevel.server - INFO - 85365 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 10:34:30,992 - mcp.server.streamable_http_manager - INFO - 85365 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-21 10:34:38,884 - auth.scopes - INFO - 89740 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-21 10:34:38,899 - core.utils - INFO - 89740 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-21 10:34:38,899 - core.server - INFO - 89740 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-21 10:34:38,899 - core.server - INFO - 89740 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-21 10:34:38,983 - httpx - INFO - 89740 - MainThread [_client._send_single_request:1025] - HTTP Request: GET https://pypi.org/pypi/fastmcp/json "HTTP/1.1 200 OK"
+2026-01-21 10:34:39,020 - docket.worker - INFO - 89740 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#89740' with the following tasks:
+2026-01-21 10:34:39,020 - docket.worker - INFO - 89740 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-21 10:34:39,020 - docket.worker - INFO - 89740 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-21 10:34:39,020 - docket.worker - INFO - 89740 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-21 10:34:39,021 - mcp.server.streamable_http_manager - INFO - 89740 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-21 10:35:49,377 - mcp.server.streamable_http_manager - INFO - 89740 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: a16ced8103d94b97b16ae8dce6f51089
+2026-01-21 10:35:50,105 - mcp.server.streamable_http_manager - INFO - 89740 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 22b44d0570ae47f7ad4d4b66f4dd3104
+2026-01-21 10:35:52,189 - mcp.server.lowlevel.server - INFO - 89740 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 10:35:54,918 - mcp.server.streamable_http_manager - INFO - 89740 - MainThread [streamable_http_manager._handle_stateful_request:239] - Created new transport with session ID: 75446dad37f84f0bb8760d37f8b1ce84
+2026-01-21 10:35:56,295 - mcp.server.lowlevel.server - INFO - 89740 - MainThread [server._handle_request:713] - Processing request of type ListToolsRequest
+2026-01-21 10:36:24,549 - mcp.server.streamable_http_manager - INFO - 89740 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-21 10:40:21,616 - auth.scopes - INFO - 90881 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-21 10:40:21,624 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-21 10:40:21,628 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-21 10:40:21,628 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-21 10:40:21,628 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-21 10:40:21,629 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-21 10:40:21,629 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-21 10:40:21,629 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-21 10:40:21,630 - __main__ - ERROR - 90881 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-21 10:40:21,630 - core.utils - INFO - 90881 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-21 10:40:21,630 - core.server - INFO - 90881 - MainThread [server.set_transport_mode:74] - Transport: stdio
+2026-01-21 10:40:21,631 - auth.oauth_callback_server - INFO - 90881 - MainThread [oauth_callback_server.ensure_oauth_callback_available:257] - Creating minimal OAuth server instance for http://localhost:3000
+2026-01-21 10:40:21,632 - auth.oauth_callback_server - INFO - 90881 - MainThread [oauth_callback_server.ensure_oauth_callback_available:261] - Starting minimal OAuth server for stdio mode
+2026-01-21 10:40:21,739 - auth.oauth_callback_server - INFO - 90881 - MainThread [oauth_callback_server.start:192] - Minimal OAuth server started on localhost:3000
+2026-01-21 10:40:21,739 - auth.oauth_callback_server - INFO - 90881 - MainThread [oauth_callback_server.ensure_oauth_callback_available:264] - Minimal OAuth server successfully started on http://localhost:3000
+2026-01-21 10:40:21,763 - docket.worker - INFO - 90881 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#90881' with the following tasks:
+2026-01-21 10:40:21,763 - docket.worker - INFO - 90881 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-21 10:40:21,763 - docket.worker - INFO - 90881 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-21 10:40:21,763 - docket.worker - INFO - 90881 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-21 10:40:32,317 - auth.oauth_callback_server - ERROR - 90881 - Thread-1 (run_server) [oauth_callback_server.oauth_callback:70] - Authentication failed: No authorization code received from Google.
+2026-01-21 10:42:37,680 - auth.oauth_callback_server - INFO - 90881 - MainThread [oauth_callback_server.stop:218] - Minimal OAuth server stopped
+2026-01-21 10:42:45,205 - auth.scopes - INFO - 91148 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'calendar']
+2026-01-21 10:42:45,217 - core.utils - INFO - 91148 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-21 10:42:45,217 - core.server - INFO - 91148 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-21 10:42:45,217 - core.server - INFO - 91148 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-21 10:42:45,245 - docket.worker - INFO - 91148 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#91148' with the following tasks:
+2026-01-21 10:42:45,245 - docket.worker - INFO - 91148 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-21 10:42:45,245 - docket.worker - INFO - 91148 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-21 10:42:45,245 - docket.worker - INFO - 91148 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-21 10:42:45,245 - mcp.server.streamable_http_manager - INFO - 91148 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-21 10:44:44,138 - mcp.server.streamable_http_manager - INFO - 91148 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
+2026-01-21 10:45:09,278 - auth.scopes - INFO - 92856 - MainThread [scopes.set_enabled_tools:126] - Enabled tools set for scope management: ['gmail', 'drive', 'calendar', 'docs', 'sheets', 'chat', 'forms', 'slides', 'tasks', 'search']
+2026-01-21 10:45:09,288 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'drive': No module named 'gdrive'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 178, in <lambda>
+    "drive": lambda: import_module("gdrive.drive_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdrive'
+2026-01-21 10:45:09,293 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'docs': No module named 'gdocs'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 180, in <lambda>
+    "docs": lambda: import_module("gdocs.docs_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gdocs'
+2026-01-21 10:45:09,293 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'sheets': No module named 'gsheets'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 181, in <lambda>
+    "sheets": lambda: import_module("gsheets.sheets_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsheets'
+2026-01-21 10:45:09,293 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'chat': No module named 'gchat'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 182, in <lambda>
+    "chat": lambda: import_module("gchat.chat_tools"),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gchat'
+2026-01-21 10:45:09,293 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'forms': No module named 'gforms'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 183, in <lambda>
+    "forms": lambda: import_module("gforms.forms_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gforms'
+2026-01-21 10:45:09,294 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'slides': No module named 'gslides'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 184, in <lambda>
+    "slides": lambda: import_module("gslides.slides_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gslides'
+2026-01-21 10:45:09,294 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'tasks': No module named 'gtasks'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 185, in <lambda>
+    "tasks": lambda: import_module("gtasks.tasks_tools"),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gtasks'
+2026-01-21 10:45:09,294 - __main__ - ERROR - 92856 - MainThread [main.main:248] - Failed to import tool 'search': No module named 'gsearch'
+Traceback (most recent call last):
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 243, in main
+    tool_imports[tool]()
+  File "/Users/prasannahraman/Desktop/mcp-week-one/main.py", line 186, in <lambda>
+    "search": lambda: import_module("gsearch.search_tools"),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prasannahraman/.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gsearch'
+2026-01-21 10:45:09,295 - core.utils - INFO - 92856 - MainThread [utils.check_credentials_directory_permissions:56] - Credentials directory permissions check passed: /Users/prasannahraman/.google_workspace_mcp/credentials
+2026-01-21 10:45:09,295 - core.server - INFO - 92856 - MainThread [server.set_transport_mode:74] - Transport: streamable-http
+2026-01-21 10:45:09,295 - core.server - INFO - 92856 - MainThread [server.configure_server_for_http:396] - OAuth 2.0 mode - Server will use legacy authentication.
+2026-01-21 10:45:09,333 - docket.worker - INFO - 92856 - MainThread [worker._startup_log:1097] - Starting worker 'Prasannahs-MacBook-Air.local#92856' with the following tasks:
+2026-01-21 10:45:09,333 - docket.worker - INFO - 92856 - MainThread [worker._startup_log:1099] - * trace(message: str, ...)
+2026-01-21 10:45:09,333 - docket.worker - INFO - 92856 - MainThread [worker._startup_log:1099] - * fail(message: str, ...)
+2026-01-21 10:45:09,333 - docket.worker - INFO - 92856 - MainThread [worker._startup_log:1099] - * sleep(seconds: float, ...)
+2026-01-21 10:45:09,333 - mcp.server.streamable_http_manager - INFO - 92856 - MainThread [streamable_http_manager.run:115] - StreamableHTTP session manager started
+2026-01-21 10:45:23,285 - core.server - ERROR - 92856 - MainThread [server.legacy_oauth2_callback:462] - Authentication failed: No authorization code received from Google.
+2026-01-21 10:45:57,206 - mcp.server.streamable_http_manager - INFO - 92856 - MainThread [streamable_http_manager.run:119] - StreamableHTTP session manager shutting down
